@@ -1,0 +1,1 @@
+C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingApp\DrawingApp.csproj;x86

@@ -1,0 +1,5 @@
+C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingModel\bin\Debug\DrawingModel.dll
+C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingModel\bin\Debug\DrawingModel.pdb
+C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingModel\obj\Debug\DrawingModel.csprojResolveAssemblyReference.cache
+C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingModel\obj\Debug\DrawingModel.dll
+C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingModel\obj\Debug\DrawingModel.pdb

@@ -1,5 +1,4 @@
 ﻿using DrawingModel;
-using System.Windows.Forms;
 using System.Drawing;
 namespace DrawingForm.PresentationModel
 {
@@ -14,7 +13,7 @@ namespace DrawingForm.PresentationModel
         bool _isButtonLinePressed = true;
 
 
-        public PresentationModel(Model model, Control canvas)
+        public PresentationModel(Model model)
         {
             this._model = model;
         }
@@ -79,6 +78,11 @@ namespace DrawingForm.PresentationModel
         public void ClickButtonUndo()
         {
             _model.Undo();
+        }
+
+        public void ClickButtonUpload()
+        {
+            _model.ClickButtonUpload();
         }
 
         //IsButtonRectanglePressed

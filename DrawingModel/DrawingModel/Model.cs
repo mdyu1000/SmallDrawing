@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 
 namespace DrawingModel
 {
@@ -18,6 +19,7 @@ namespace DrawingModel
         bool _isButtonEllipsePressed;
         List<Shape> _shape = new List<Shape>();
         private CommandManager _commandManager = new CommandManager();
+        IGraphics _graphic;
 
         //PointerPressed
         public void PressPointer(double valueX, double valueY, bool isButtonLinePressed, bool isButtonRectanglePressed, bool isButtonEllipsePressed)
@@ -173,23 +175,26 @@ namespace DrawingModel
         {
             _isPressed = false;
             _shape.Clear();
-            ResetHintShape();
             NotifyModelChanged();
         }
 
         //Draw
         public void Draw(IGraphics graphics)
         {
-            graphics.ClearAll();
+            this._graphic = graphics;
+            _graphic.ClearAll();
 
             foreach (Shape DisplayShape in _shape)
-                DisplayShape.Draw(graphics);
+                DisplayShape.Draw(_graphic);
 
             if (_isPressed)
             {
-                _hint.Draw(graphics);
-                _hintRectangle.Draw(graphics);
-                _hintEllipse.Draw(graphics);
+                if (_isButtonLinePressed)
+                    _hint.Draw(_graphic);
+                else if (_isButtonRectanglePressed)
+                    _hintRectangle.Draw(_graphic);
+                else if (_isButtonEllipsePressed)
+                    _hintEllipse.Draw(_graphic);
             }
         }
 
@@ -208,23 +213,6 @@ namespace DrawingModel
         {
             if (_modelChanged != null)
                 _modelChanged();
-        }
-
-        //將Hint全部歸零
-        private void ResetHintShape()
-        {
-            _hint._valueX = 0;
-            _hint._valueY = 0;
-            _hint._valueX2 = 0;
-            _hint._valueY2 = 0;
-            _hintRectangle._valueX = 0;
-            _hintRectangle._valueY = 0;
-            _hintRectangle._width = 0;
-            _hintRectangle._height = 0;
-            _hintEllipse._valueX = 0;
-            _hintEllipse._valueY = 0;
-            _hintEllipse._width = 0;
-            _hintEllipse._height = 0;
         }
 
         //Undo
@@ -257,6 +245,13 @@ namespace DrawingModel
             {
                 return _commandManager.IsUndoEnabled;
             }
+        }
+
+        //ClickButtonUpload
+        public void ClickButtonUpload()
+        {
+            //Bitmap myBitmap = new Bitmap(@"C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\myPic.bmp");
+            //this._graphic = Graphics.FromImage(myBitmap);
         }
     }
 }

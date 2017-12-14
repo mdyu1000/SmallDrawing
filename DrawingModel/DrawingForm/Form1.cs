@@ -1,4 +1,6 @@
-﻿using System;
+﻿using GoogleDriveUploader.GoogleDrive;
+using GoogleDriveUploader.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +15,8 @@ namespace DrawingForm
     {
         DrawingModel.Model _model;
         PresentationModel.PresentationModel _presentationModel;
+        GoogleDriveExample _service = new GoogleDriveExample();
+
         public Form1()
         {
             InitializeComponent();
@@ -20,7 +24,7 @@ namespace DrawingForm
             // prepare presentation model and model
             //
             _model = new DrawingModel.Model();
-            _presentationModel = new PresentationModel.PresentationModel(_model, _canvas);
+            _presentationModel = new PresentationModel.PresentationModel(_model);
             _model._modelChanged += HandleModelChanged;
         }
 
@@ -99,6 +103,16 @@ namespace DrawingForm
             RefreshState();
         }
 
+        //ClickButtonUpload
+        private void ClickButtonUpload(object sender, EventArgs e)
+        {
+            Bitmap bitmap = new Bitmap(this._canvas.Width, this._canvas.Height);
+            this._canvas.DrawToBitmap(bitmap, new Rectangle(0, 0, this._canvas.Width, this._canvas.Height));
+            bitmap.Save(@"img.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
+            this._service.ClickUploadButton(@"img.jpg");
+            //_presentationModel.ClickButtonUpload();
+        }
+
         //RefreshState
         public void RefreshState()
         {
@@ -109,10 +123,6 @@ namespace DrawingForm
             _buttonRedo.Enabled = _presentationModel.IsButtonRedoEnabled();
             _buttonUndo.Enabled = _presentationModel.IsButtonUndoEnabled();
             Invalidate();
-        }
-
-        private void _buttonUpload_Click(object sender, EventArgs e)
-        {
         }
     }
 }

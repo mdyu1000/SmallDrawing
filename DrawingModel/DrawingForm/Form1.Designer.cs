@@ -189,7 +189,7 @@
             this._buttonUpload.TabIndex = 2;
             this._buttonUpload.Text = "Upload";
             this._buttonUpload.UseVisualStyleBackColor = true;
-            this._buttonUpload.Click += new System.EventHandler(this._buttonUpload_Click);
+            this._buttonUpload.Click += new System.EventHandler(this.ClickButtonUpload);
             //
             // Form1
             //

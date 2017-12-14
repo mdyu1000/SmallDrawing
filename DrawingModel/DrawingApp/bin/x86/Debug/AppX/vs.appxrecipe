@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>88e14c9d-ed90-4591-8826-eb5e2a8dbd9e</PackageIdentityName>
     <PackageIdentityPublisher>CN=user</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingApp\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingApp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingApp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-13T17:04:56.538</Modified>
+      <Modified>2017-12-14T15:43:26.822</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingApp\bin\x86\Debug\DrawingApp.exe">
+    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingApp\bin\x86\Debug\DrawingApp.exe">
       <PackagePath>entrypoint\DrawingApp.exe</PackagePath>
-      <Modified>2017-12-13T17:04:53.623</Modified>
+      <Modified>2017-12-14T15:42:56.939</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,45 +448,45 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T15:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-11-23T02:20:47.287</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-07-22T10:25:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-22T10:25:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-22T10:25:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-22T10:25:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-22T10:25:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-22T10:25:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-22T10:25:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingApp\bin\x86\Debug\DrawingApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingApp\bin\x86\Debug\DrawingApp.xr.xml">
       <PackagePath>DrawingApp.xr.xml</PackagePath>
       <Modified>2017-12-13T17:04:53.258</Modified>
     </AppxPackagedFile>
@@ -494,14 +494,14 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-11-20T16:57:16.313</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingApp\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-13T17:04:55.322</Modified>
+      <Modified>2017-12-14T15:43:15.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\Visual Studio 2015\Projects\DrawingModel\DrawingApp\bin\x86\Debug\Core\DrawingApp.exe">
+    <AppxPackagedFile Include="C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingApp\bin\x86\Debug\Core\DrawingApp.exe">
       <PackagePath>DrawingApp.exe</PackagePath>
-      <Modified>2017-12-13T17:04:56.534</Modified>
+      <Modified>2017-12-14T15:43:26.818</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

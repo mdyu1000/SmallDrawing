@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DrawingModel
 {
-    class Shape
+    public class Shape
     {
         public double _valueX;
         public double _valueY;

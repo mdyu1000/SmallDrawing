@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DrawingModel
 {
-    interface IGraphics
+    public interface IGraphics
     {
         //ClearAll
         void ClearAll();

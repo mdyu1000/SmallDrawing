@@ -1,6 +1,6 @@
 <stylecopresultscache>
   <version>12</version>
-  <project key="-1984772465">
+  <project key="1847309119">
     <configuration>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS</configuration>
   </project>
   <sourcecode name="App.xaml.cs" parser="StyleCop.CSharp.CsParser">
@@ -24,7 +24,7 @@
     <timestamps>
       <styleCop>2017/09/26 15:31:10.331</styleCop>
       <settingsFile>0001/01/01 00:00:00.000</settingsFile>
-      <sourceFile>2017/12/02 15:36:06.567</sourceFile>
+      <sourceFile>2017/12/14 00:51:03.767</sourceFile>
       <parser>2017/09/26 15:31:10.331</parser>
       <KellyPalRules.KellyPalAnalyzer>2017/09/26 15:31:10.331</KellyPalRules.KellyPalAnalyzer>
       <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
@@ -35,7 +35,7 @@
     <timestamps>
       <styleCop>2017/09/26 15:31:10.331</styleCop>
       <settingsFile>0001/01/01 00:00:00.000</settingsFile>
-      <sourceFile>2017/12/02 15:51:02.838</sourceFile>
+      <sourceFile>2017/12/14 00:44:00.686</sourceFile>
       <parser>2017/09/26 15:31:10.331</parser>
       <KellyPalRules.KellyPalAnalyzer>2017/09/26 15:31:10.331</KellyPalRules.KellyPalAnalyzer>
       <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
@@ -46,7 +46,7 @@
     <timestamps>
       <styleCop>2017/09/26 15:31:10.331</styleCop>
       <settingsFile>0001/01/01 00:00:00.000</settingsFile>
-      <sourceFile>2017/12/02 15:23:06.822</sourceFile>
+      <sourceFile>2017/12/12 18:28:26.699</sourceFile>
       <parser>2017/09/26 15:31:10.331</parser>
       <KellyPalRules.KellyPalAnalyzer>2017/09/26 15:31:10.331</KellyPalRules.KellyPalAnalyzer>
       <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>

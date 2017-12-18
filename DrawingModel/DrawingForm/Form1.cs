@@ -110,7 +110,6 @@ namespace DrawingForm
             this._canvas.DrawToBitmap(bitmap, new Rectangle(0, 0, this._canvas.Width, this._canvas.Height));
             bitmap.Save(@"img.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
             this._google.UploadFile(@"img.jpg");
-            //_presentationModel.ClickButtonUpload();
         }
 
         //RefreshState

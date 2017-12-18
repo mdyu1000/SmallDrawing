@@ -80,11 +80,6 @@ namespace DrawingForm.PresentationModel
             _model.Undo();
         }
 
-        public void ClickButtonUpload()
-        {
-            _model.ClickButtonUpload();
-        }
-
         //IsButtonRectanglePressed
         public bool IsButtonEllipsePressed()
         {

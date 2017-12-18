@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DrawingModel
 {
-    class Model
+    public class Model
     {
         public event ModelChangedEventHandler _modelChanged;
         public delegate void ModelChangedEventHandler();
@@ -244,13 +244,6 @@ namespace DrawingModel
             {
                 return _commandManager.IsUndoEnabled;
             }
-        }
-
-        //ClickButtonUpload
-        public void ClickButtonUpload()
-        {
-            //Bitmap myBitmap = new Bitmap(@"C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\myPic.bmp");
-            //this._graphic = Graphics.FromImage(myBitmap);
         }
     }
 }

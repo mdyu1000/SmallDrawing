@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,8 @@ namespace DrawingForm
         DrawingModel.Model _model;
         PresentationModel.PresentationModel _presentationModel;
         GoogleDriveExample _google = new GoogleDriveExample();
+        const int BUTTON_SIZE = 3;
+        bool[] _isButtonPressed = new bool[BUTTON_SIZE];
 
         public Form1()
         {
@@ -58,8 +61,12 @@ namespace DrawingForm
         //HandleCanvasPressed
         public void HandleCanvasPressed(object sender, System.Windows.Forms.MouseEventArgs e)
         {
+            const int TWO = 2;
+            _isButtonPressed[0] = _presentationModel.IsButtonLinePressed();
+            _isButtonPressed[1] = _presentationModel.IsButtonRectanglePressed();
+            _isButtonPressed[TWO] = _presentationModel.IsButtonEllipsePressed();
             _presentationModel.DrawCanvas();
-            _model.PressPointer(e.X, e.Y, _presentationModel.IsButtonLinePressed(), _presentationModel.IsButtonRectanglePressed(), _presentationModel.IsButtonEllipsePressed());
+            _model.PressPointer(e.X, e.Y, _isButtonPressed);
             RefreshState();
         }
 
@@ -123,5 +130,6 @@ namespace DrawingForm
             _buttonUndo.Enabled = _presentationModel.IsButtonUndoEnabled();
             Invalidate();
         }
+
     }
 }

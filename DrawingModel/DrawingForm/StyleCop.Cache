@@ -18,7 +18,7 @@
     <timestamps>
       <styleCop>2017/09/26 15:31:10.331</styleCop>
       <settingsFile>0001/01/01 00:00:00.000</settingsFile>
-      <sourceFile>2017/12/14 23:53:14.737</sourceFile>
+      <sourceFile>2017/12/20 14:19:05.695</sourceFile>
       <parser>2017/09/26 15:31:10.331</parser>
       <KellyPalRules.KellyPalAnalyzer>2017/09/26 15:31:10.331</KellyPalRules.KellyPalAnalyzer>
       <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
@@ -29,69 +29,34 @@
     <timestamps>
       <styleCop>2017/09/26 15:31:10.331</styleCop>
       <settingsFile>0001/01/01 00:00:00.000</settingsFile>
-      <sourceFile>2017/12/14 11:13:04.450</sourceFile>
+      <sourceFile>2017/12/20 14:01:01.663</sourceFile>
       <parser>2017/09/26 15:31:10.331</parser>
       <KellyPalRules.KellyPalAnalyzer>2017/09/26 15:31:10.331</KellyPalRules.KellyPalAnalyzer>
       <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
     </timestamps>
-    <violations>
-      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="Variable1" ruleCheckId="VR0001">
-        <context>ICS(變數-1)</context>
-        <line>217</line>
-        <warning>False</warning>
-      </violation>
-    </violations>
+    <violations />
   </sourcecode>
   <sourcecode name="Command.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2017/09/26 15:31:10.331</styleCop>
       <settingsFile>0001/01/01 00:00:00.000</settingsFile>
-      <sourceFile>2017/12/12 20:09:39.049</sourceFile>
+      <sourceFile>2017/12/20 14:03:12.760</sourceFile>
       <parser>2017/09/26 15:31:10.331</parser>
       <KellyPalRules.KellyPalAnalyzer>2017/09/26 15:31:10.331</KellyPalRules.KellyPalAnalyzer>
       <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
     </timestamps>
-    <violations>
-      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="UnsuitableNaming" ruleCheckId="UN0001">
-        <context>Unsuitable naming(名不符實)-UnExecute(un)</context>
-        <line>15</line>
-        <index>239</index>
-        <endIndex>283</endIndex>
-        <startLine>15</startLine>
-        <startColumn>9</startColumn>
-        <endLine>17</endLine>
-        <endColumn>9</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="Method2" ruleCheckId="MT0002">
-        <context>ICS(函式-2)</context>
-        <line>15</line>
-        <warning>False</warning>
-      </violation>
-    </violations>
+    <violations />
   </sourcecode>
   <sourcecode name="PresentationModel.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2017/09/26 15:31:10.331</styleCop>
       <settingsFile>0001/01/01 00:00:00.000</settingsFile>
-      <sourceFile>2017/12/14 17:31:21.474</sourceFile>
+      <sourceFile>2017/12/20 13:55:31.202</sourceFile>
       <parser>2017/09/26 15:31:10.331</parser>
       <KellyPalRules.KellyPalAnalyzer>2017/09/26 15:31:10.331</KellyPalRules.KellyPalAnalyzer>
       <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
     </timestamps>
-    <violations>
-      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="SpacingAndNewLine17" ruleCheckId="SN0017">
-        <context>ICS(空白與空行-17)</context>
-        <line>14</line>
-        <index>370</index>
-        <endIndex>371</endIndex>
-        <startLine>14</startLine>
-        <startColumn>1</startColumn>
-        <endLine>14</endLine>
-        <endColumn>2</endColumn>
-        <warning>False</warning>
-      </violation>
-    </violations>
+    <violations />
   </sourcecode>
   <sourcecode name="WindowsFormsGraphicsAdaptor.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>

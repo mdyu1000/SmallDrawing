@@ -8,11 +8,13 @@ namespace DrawingModel
 {
     class Command
     {
+        //Execute
         public void Execute()
         {
         }
 
-        public void UnExecute()
+        //UnExecute
+        public void UndoExecute()
         {
         }
     }

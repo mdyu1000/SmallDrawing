@@ -36,13 +36,13 @@
             this._buttonRectangle = new System.Windows.Forms.Button();
             this._buttonLine = new System.Windows.Forms.Button();
             this._buttonEllipse = new System.Windows.Forms.Button();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this._tableLayoutPanelService = new System.Windows.Forms.TableLayoutPanel();
             this._buttonRedo = new System.Windows.Forms.Button();
             this._buttonUndo = new System.Windows.Forms.Button();
             this._buttonUpload = new System.Windows.Forms.Button();
             this._tableLayoutPanel.SuspendLayout();
             this._tableLayoutPanelShape.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
+            this._tableLayoutPanelService.SuspendLayout();
             this.SuspendLayout();
             //
             // _tableLayoutPanel
@@ -53,7 +53,7 @@
             this._tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 42.53579F));
             this._tableLayoutPanel.Controls.Add(this._canvas, 1, 1);
             this._tableLayoutPanel.Controls.Add(this._tableLayoutPanelShape, 0, 1);
-            this._tableLayoutPanel.Controls.Add(this.tableLayoutPanel1, 1, 0);
+            this._tableLayoutPanel.Controls.Add(this._tableLayoutPanelService, 1, 0);
             this._tableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this._tableLayoutPanel.Location = new System.Drawing.Point(0, 0);
             this._tableLayoutPanel.Name = "_tableLayoutPanel";
@@ -139,22 +139,22 @@
             this._buttonEllipse.UseVisualStyleBackColor = true;
             this._buttonEllipse.Click += new System.EventHandler(this.ClickButtonEllipse);
             //
-            // tableLayoutPanel1
+            // _tableLayoutPanelService
             //
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.tableLayoutPanel1.Controls.Add(this._buttonRedo, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this._buttonUndo, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this._buttonUpload, 2, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(122, 3);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(436, 58);
-            this.tableLayoutPanel1.TabIndex = 5;
+            this._tableLayoutPanelService.ColumnCount = 3;
+            this._tableLayoutPanelService.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this._tableLayoutPanelService.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this._tableLayoutPanelService.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this._tableLayoutPanelService.Controls.Add(this._buttonRedo, 0, 0);
+            this._tableLayoutPanelService.Controls.Add(this._buttonUndo, 1, 0);
+            this._tableLayoutPanelService.Controls.Add(this._buttonUpload, 2, 0);
+            this._tableLayoutPanelService.Dock = System.Windows.Forms.DockStyle.Fill;
+            this._tableLayoutPanelService.Location = new System.Drawing.Point(122, 3);
+            this._tableLayoutPanelService.Name = "_tableLayoutPanelService";
+            this._tableLayoutPanelService.RowCount = 1;
+            this._tableLayoutPanelService.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this._tableLayoutPanelService.Size = new System.Drawing.Size(436, 58);
+            this._tableLayoutPanelService.TabIndex = 5;
             //
             // _buttonRedo
             //
@@ -201,7 +201,7 @@
             this.Text = "Form1";
             this._tableLayoutPanel.ResumeLayout(false);
             this._tableLayoutPanelShape.ResumeLayout(false);
-            this.tableLayoutPanel1.ResumeLayout(false);
+            this._tableLayoutPanelService.ResumeLayout(false);
             this.ResumeLayout(false);
         }
 
@@ -214,7 +214,7 @@
         private System.Windows.Forms.Panel _canvas = new DoubleBufferedPanel();
         private System.Windows.Forms.TableLayoutPanel _tableLayoutPanelShape;
         private System.Windows.Forms.Button _buttonEllipse;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel _tableLayoutPanelService;
         private System.Windows.Forms.Button _buttonRedo;
         private System.Windows.Forms.Button _buttonUndo;
         private System.Windows.Forms.Button _buttonUpload;

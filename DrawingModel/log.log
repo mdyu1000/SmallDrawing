@@ -1,61 +1,3043 @@
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is a trigger char, starting model computation.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is a trigger char, starting model computation.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is a trigger char, starting model computation.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is NOT a trigger char, we won't have completion.
-Entered completion command handler for typechar.
-no completion session yet and this is a trigger char, starting model computation.
 TestWindow package loaded
 Informational: ------ 載入播放清單已開始 ------
-Informational: ========== 載入播放清單已完成 (0:00:00.1360965) ==========
+Informational: ========== 載入播放清單已完成 (0:00:00.0080053) ==========
+Informational: ------ 探索測試已開始 ------
+Informational: ========== 探索測試已完成: 19 找到 (0:00:01.4736843) ==========
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+dismissing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+typechar was handled by someone else, cannot have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+dismissing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+typechar was handled by someone else, cannot have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+typechar was handled by someone else, cannot have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+typechar was handled by someone else, cannot have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+typechar was handled by someone else, cannot have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+typechar was handled by someone else, cannot have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+typechar was handled by someone else, cannot have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+typechar was handled by someone else, cannot have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+dismissing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+typechar was handled by someone else, cannot have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+dismissing the session...
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+typechar was handled by someone else, cannot have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+given range is not current
+given range is not current
+given range is not current
+given range is not current
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+dismissing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+typechar was handled by someone else, cannot have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+dismissing the session...
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+dismissing the session...
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+dismissing the session...
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+computing completion again and filtering...
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+dismissing the session...
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+dismissing the session...
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+dismissing the session...
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+dismissing the session...
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+dismissing the session...
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+Entered completion command handler for typechar.
+we have a completion session.
+committing the session...
+the char commit/dismiss -ed a session and is trigerring completion again. starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+typechar was handled by someone else, cannot have a completion session.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is NOT a trigger char, we won't have completion.
+Entered completion command handler for typechar.
+no completion session yet and this is a trigger char, starting model computation.

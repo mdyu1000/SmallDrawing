@@ -22,8 +22,10 @@ namespace DrawingModel
         //Undo
         public void Undo()
         {
+            const string TEXT = "Cannot Undo exception\n";
+
             if (_commandUndoStack.Count <= 0)
-                throw new Exception("Cannot Undo exception\n");
+                throw new Exception(TEXT);
 
             ICommand temp = _commandUndoStack.Pop();
             _commandRedoStack.Push(temp);
@@ -33,8 +35,10 @@ namespace DrawingModel
         //Redo
         public void Redo()
         {
+            const string TEXT = "Cannot Redo exception\n";
+
             if (_commandRedoStack.Count <= 0)
-                throw new Exception("Cannot Redo exception\n");
+                throw new Exception(TEXT);
 
             ICommand temp = _commandRedoStack.Pop();
             _commandUndoStack.Push(temp);

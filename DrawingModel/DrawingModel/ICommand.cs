@@ -13,7 +13,5 @@ namespace DrawingModel
 
         //UndoExecute
         void UndoExecute();
-
-
     }
 }

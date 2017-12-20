@@ -6,15 +6,34 @@ using System.Threading.Tasks;
 
 namespace DrawingModel
 {
-    class Rectangle : Shape
+    public class Rectangle : Shape
     {
-        public double _width;
-        public double _height;
+        private double _width;
+        private double _height;
 
         //Draw
         public override void Draw(IGraphics graphics)
         {
-            graphics.DrawRectangle(_valueX, _valueY, _width, _height);
+            graphics.DrawRectangle(GetValueX(), GetValueY(), _width, _height);
+        }
+
+        //SetValueTwo
+        public void SetValueTwo(double width, double height)
+        {
+            this._width = width;
+            this._height = height;
+        }
+
+        //GetWidth
+        public double GetWidth()
+        {
+            return this._width;
+        }
+
+        //GetHeight
+        public double GetHeight()
+        {
+            return this._height;
         }
 
     }

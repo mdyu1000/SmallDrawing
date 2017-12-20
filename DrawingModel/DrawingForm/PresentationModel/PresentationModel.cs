@@ -12,7 +12,6 @@ namespace DrawingForm.PresentationModel
         //Button Line預設值
         bool _isButtonLinePressed = true;
 
-
         public PresentationModel(Model model)
         {
             this._model = model;

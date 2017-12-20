@@ -56,6 +56,7 @@ namespace DrawingForm
         public void HandleClearButtonClick(object sender, EventArgs e)
         {
             _model.Clear();
+            RefreshState();
         }
 
         //HandleCanvasPressed

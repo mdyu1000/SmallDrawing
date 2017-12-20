@@ -62,5 +62,12 @@ namespace DrawingModel
                 return _commandUndoStack.Count != 0;
             }
         }
+
+        //ClearStack
+        public void ClearStack()
+        {
+            this._commandUndoStack.Clear();
+            this._commandRedoStack.Clear();
+        }
     }
 }

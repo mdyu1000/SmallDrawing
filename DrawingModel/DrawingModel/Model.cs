@@ -161,6 +161,7 @@ namespace DrawingModel
         {
             _isPressed = false;
             _shape.Clear();
+            this._commandManager.ClearStack();
             NotifyModelChanged();
         }
 

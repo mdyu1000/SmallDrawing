@@ -41,6 +41,8 @@ namespace DrawingForm.PresentationModel
         //DrawArrow
         public void DrawArrow(double x1, double y1, double x2, double y2)
         {
+            Pen pen = new Pen(Color.Blue, 5);
+            _graphics.DrawLine(pen, (float)x1, (float)y1, (float)x2, (float)y2);
         }
     }
 }

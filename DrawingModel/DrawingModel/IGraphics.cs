@@ -19,5 +19,8 @@ namespace DrawingModel
 
         //DrawEllipse
         void DrawEllipse(double valueX, double valueY, double width, double height);
+
+        //DrawArrow
+        void DrawArrow(double x1, double y1, double x2, double y2);
     }
 }

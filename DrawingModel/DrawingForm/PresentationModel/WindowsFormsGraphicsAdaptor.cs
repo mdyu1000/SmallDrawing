@@ -37,5 +37,10 @@ namespace DrawingForm.PresentationModel
             _graphics.FillEllipse(Brushes.Gold, (float)valueX, (float)valueY, (float)width, (float)height);
             _graphics.DrawEllipse(Pens.Black, (float)valueX, (float)valueY, (float)width, (float)height);
         }
+
+        //DrawArrow
+        public void DrawArrow(double x1, double y1, double x2, double y2)
+        {
+        }
     }
 }

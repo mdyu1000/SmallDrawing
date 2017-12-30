@@ -17,7 +17,7 @@ namespace DrawingForm
         DrawingModel.Model _model;
         PresentationModel.PresentationModel _presentationModel;
         GoogleDriveExample _google = new GoogleDriveExample();
-        const int BUTTON_SIZE = 3;
+        const int BUTTON_SIZE = 4;
         bool[] _isButtonPressed = new bool[BUTTON_SIZE];
 
         public Form1()
@@ -52,6 +52,13 @@ namespace DrawingForm
             RefreshState();
         }
 
+        // Start Draw Arrow
+        private void ClickButtonArrow(object sender, EventArgs e)
+        {
+            _presentationModel.ClickButtonArrow();
+            RefreshState();
+        }
+
         //HandleClearButtonClick
         public void HandleClearButtonClick(object sender, EventArgs e)
         {
@@ -63,9 +70,11 @@ namespace DrawingForm
         public void HandleCanvasPressed(object sender, System.Windows.Forms.MouseEventArgs e)
         {
             const int TWO = 2;
+            const int THREE = 3;
             _isButtonPressed[0] = _presentationModel.IsButtonLinePressed();
             _isButtonPressed[1] = _presentationModel.IsButtonRectanglePressed();
             _isButtonPressed[TWO] = _presentationModel.IsButtonEllipsePressed();
+            _isButtonPressed[THREE] = _presentationModel.IsButtonArrowPressed();
             _presentationModel.DrawCanvas();
             _model.PressPointer(e.X, e.Y, _isButtonPressed);
             RefreshState();
@@ -111,6 +120,13 @@ namespace DrawingForm
             RefreshState();
         }
 
+        //ClickButtonDelete
+        private void ClickButtonDelete(object sender, EventArgs e)
+        {
+            _presentationModel.ClickButtonDelete();
+            RefreshState();
+        }
+
         //ClickButtonUpload
         private void ClickButtonUpload(object sender, EventArgs e)
         {
@@ -126,11 +142,12 @@ namespace DrawingForm
             _buttonRectangle.Enabled = _presentationModel.IsButtonShapeEnabled();
             _buttonLine.Enabled = _presentationModel.IsButtonShapeEnabled();
             _buttonEllipse.Enabled = _presentationModel.IsButtonShapeEnabled();
+            _buttonArrow.Enabled = _presentationModel.IsButtonShapeEnabled();
             _buttonClear.Enabled = _presentationModel.IsButtonShapeEnabled();
             _buttonRedo.Enabled = _presentationModel.IsButtonRedoEnabled();
             _buttonUndo.Enabled = _presentationModel.IsButtonUndoEnabled();
+            _buttonDelete.Enabled = _presentationModel.IsButtonDeleteEnabled();
             Invalidate();
         }
-
     }
 }

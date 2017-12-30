@@ -80,11 +80,17 @@
     <Compile Include="..\DrawingModel\AddShapeCommand.cs">
       <Link>Model\AddShapeCommand.cs</Link>
     </Compile>
+    <Compile Include="..\DrawingModel\Arrow.cs">
+      <Link>Model\Arrow.cs</Link>
+    </Compile>
     <Compile Include="..\DrawingModel\Command.cs">
       <Link>Model\Command.cs</Link>
     </Compile>
     <Compile Include="..\DrawingModel\CommandManager.cs">
       <Link>Model\CommandManager.cs</Link>
+    </Compile>
+    <Compile Include="..\DrawingModel\DeleteShapeCommand.cs">
+      <Link>Model\DeleteShapeCommand.cs</Link>
     </Compile>
     <Compile Include="..\DrawingModel\Ellipse.cs">
       <Link>Model\Ellipse.cs</Link>

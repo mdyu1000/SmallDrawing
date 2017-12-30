@@ -7,10 +7,10 @@ namespace DrawingForm.PresentationModel
         Model _model;
         bool _isButtonShapeEnabled;
         bool _isButtonClearEnabled;
+        bool _isButtonLinePressed = true;
         bool _isButtonEllipsePressed;
         bool _isButtonRectanglePressed;
-        //Button Line預設值
-        bool _isButtonLinePressed = true;
+        bool _isButtonArrowPressed;
 
         public PresentationModel(Model model)
         {
@@ -49,6 +49,7 @@ namespace DrawingForm.PresentationModel
             _isButtonRectanglePressed = true;
             _isButtonLinePressed = false;
             _isButtonEllipsePressed = false;
+            _isButtonArrowPressed = false;
         }
 
         //ClickButtonLine
@@ -57,12 +58,23 @@ namespace DrawingForm.PresentationModel
             _isButtonLinePressed = true;
             _isButtonRectanglePressed = false;
             _isButtonEllipsePressed = false;
+            _isButtonArrowPressed = false;
         }
 
         //ClickButtonEllipse
         public void ClickButtonEllipse()
         {
             _isButtonEllipsePressed = true;
+            _isButtonRectanglePressed = false;
+            _isButtonLinePressed = false;
+            _isButtonArrowPressed = false;
+        }
+
+        //ClickButtonArrow
+        public void ClickButtonArrow()
+        {
+            _isButtonArrowPressed = true;
+            _isButtonEllipsePressed = false;
             _isButtonRectanglePressed = false;
             _isButtonLinePressed = false;
         }
@@ -77,6 +89,18 @@ namespace DrawingForm.PresentationModel
         public void ClickButtonUndo()
         {
             _model.Undo();
+        }
+
+        //ClickButtonUndo
+        public void ClickButtonDelete()
+        {
+            _model.Delete();
+        }
+
+        //IsButtonRectanglePressed
+        public bool IsButtonArrowPressed()
+        {
+            return _isButtonArrowPressed;
         }
 
         //IsButtonRectanglePressed
@@ -121,5 +145,10 @@ namespace DrawingForm.PresentationModel
             return _model.IsUndoEnabled;
         }
 
+        //Button Undo State
+        public bool IsButtonDeleteEnabled()
+        {
+            return _isButtonClearEnabled;
+        }
     }
 }

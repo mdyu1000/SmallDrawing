@@ -13,9 +13,11 @@ namespace DrawingModel
         Line _hint = new Line();
         Rectangle _hintRectangle = new Rectangle();
         Ellipse _hintEllipse = new Ellipse();
+        Arrow _hintArrow = new Arrow();
         bool _isButtonLinePressed;
         bool _isButtonRectanglePressed;
         bool _isButtonEllipsePressed;
+        bool _isButtonArrowPressed;
         List<Shape> _shape = new List<Shape>();
         private CommandManager _commandManager = new CommandManager();
         IGraphics _graphic;
@@ -24,12 +26,14 @@ namespace DrawingModel
         public void PressPointer(double valueX, double valueY, bool[] isButtonPressed)
         {
             const int TWO = 2;
+            const int THREE = 3;
 
             if (valueX > 0 && valueY > 0)
             {
                 _isButtonLinePressed = isButtonPressed[0];
                 _isButtonRectanglePressed = isButtonPressed[1];
                 _isButtonEllipsePressed = isButtonPressed[TWO];
+                _isButtonArrowPressed = isButtonPressed[THREE];
                 _firstPointX = valueX;
                 _firstPointY = valueY;
                 PressPointerPlus();
@@ -51,6 +55,9 @@ namespace DrawingModel
             //Ellipse 的 _hintEllipse
             if (_isButtonEllipsePressed)
                 PressPointerEllipse();
+
+            if (_isButtonArrowPressed)
+                PressPointerArrow();
         }
 
         //PointerPressed Line
@@ -71,6 +78,12 @@ namespace DrawingModel
             _hintEllipse.SetValue(_firstPointX, _firstPointY);
         }
 
+        //PointerPressed Arrow
+        public void PressPointerArrow()
+        {
+            _hintArrow.SetValue(_firstPointX, _firstPointY);
+        }
+
         //PointerMoved
         public void MovePointer(double valueX, double valueY)
         {
@@ -82,6 +95,8 @@ namespace DrawingModel
                     MovePointerRectangle(valueX, valueY);
                 else if (_isButtonEllipsePressed)
                     MovePointerEllipse(valueX, valueY);
+                else if (_isButtonArrowPressed)
+                    MovePointerArrow(valueX, valueY);
 
                 NotifyModelChanged();
             }
@@ -107,6 +122,13 @@ namespace DrawingModel
             _hintEllipse.SetValue((valueX < _hintEllipse.GetValueX()) ? valueX : _firstPointX, (valueY < _hintEllipse.GetValueY()) ? valueY : _firstPointY);
         }
 
+        //PointerMoved Arrow
+        public void MovePointerArrow(double valueX, double valueY)
+        {
+            _hintArrow.SetValueTwo(valueX, valueY);
+            _hintArrow.SetValueThree();
+        }
+
         //PointerReleased
         public void ReleasePointer(double valueX, double valueY)
         {
@@ -124,6 +146,9 @@ namespace DrawingModel
 
                 if (_isButtonEllipsePressed)
                     ReleasePointerEllipse(valueX, valueY);
+
+                if (_isButtonArrowPressed)
+                    ReleasePointerArrow(valueX, valueY);
 
                 NotifyModelChanged();
             }
@@ -156,6 +181,18 @@ namespace DrawingModel
             _commandManager.Execute(new AddShapeCommand(this, ellipse));
         }
 
+        //PointerReleased Arrow
+        public void ReleasePointerArrow(double valueX, double valueY)
+        {
+            Arrow arrow = new Arrow();
+            arrow.SetValue(_firstPointX, _firstPointY);
+            arrow.SetValueTwo(valueX, valueY);
+            arrow.SetValueThree();
+            Console.WriteLine("{0},{1},{2},{3},{4},{5},{6},{7}", arrow.GetValueX(), arrow.GetValueY(), arrow.GetValueX2(), arrow.GetValueY2(),
+                              arrow.GetValueX3(), arrow.GetValueY3(), arrow.GetValueX4(), arrow.GetValueY4());
+            this._commandManager.Execute(new AddShapeCommand(this, arrow));
+        }
+
         //Clear
         public void Clear()
         {
@@ -182,6 +219,8 @@ namespace DrawingModel
                     _hintRectangle.Draw(_graphic);
                 else if (_isButtonEllipsePressed)
                     _hintEllipse.Draw(_graphic);
+                else if (_isButtonArrowPressed)
+                    _hintArrow.Draw(_graphic);
             }
         }
 
@@ -234,6 +273,12 @@ namespace DrawingModel
             {
                 return _commandManager.IsUndoEnabled;
             }
+        }
+        //---------------
+        public void Delete()
+        {
+            _commandManager.Execute(new DeleteShapeCommand(this, _shape[_shape.Count - 1]));
+            NotifyModelChanged();
         }
     }
 }

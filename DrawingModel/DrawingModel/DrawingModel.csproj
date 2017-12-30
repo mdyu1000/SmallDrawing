@@ -70,7 +70,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddShapeCommand.cs" />
+    <Compile Include="Arrow.cs" />
     <Compile Include="CommandManager.cs" />
+    <Compile Include="DeleteShapeCommand.cs" />
     <Compile Include="Ellipse.cs" />
     <Compile Include="GoogleDriveExample.cs" />
     <Compile Include="GoogleDriveService.cs" />

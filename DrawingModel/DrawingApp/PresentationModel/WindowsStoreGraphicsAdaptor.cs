@@ -58,5 +58,10 @@ namespace DrawingApp.PresentationModel
             ellipse.Fill = new SolidColorBrush(Colors.Gold);
             _canvas.Children.Add(ellipse);
         }
+
+        //DrawArrow
+        public void DrawArrow(double x3, double y3, double x4, double y4)
+        {
+        }
     }
 }

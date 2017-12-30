@@ -8,33 +8,17 @@ namespace DrawingModel
 {
     public class Ellipse : Shape
     {
-        private double _width;
-        private double _height;
 
         //Draw
         public override void Draw(IGraphics graphics)
         {
-            graphics.DrawEllipse(GetValueX(), GetValueY(), _width, _height);
+            graphics.DrawEllipse(GetValueX(), GetValueY(), GetWidth(), GetHeight());
         }
 
-        //SetValueTwo
-        public void SetValueTwo(double width, double height)
+        //GetShapeFlag
+        public override int GetShapeFlag()
         {
-            this._width = width;
-            this._height = height;
+            return 3;
         }
-
-        //GetWidth
-        public double GetWidth()
-        {
-            return this._width;
-        }
-
-        //GetHeight
-        public double GetHeight()
-        {
-            return this._height;
-        }
-
     }
 }

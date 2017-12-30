@@ -21,6 +21,7 @@ namespace DrawingModel
         List<Shape> _shape = new List<Shape>();
         private CommandManager _commandManager = new CommandManager();
         IGraphics _graphic;
+        bool _isSelected;
 
         //PointerPressed
         public void PressPointer(double valueX, double valueY, bool[] isButtonPressed)
@@ -111,14 +112,14 @@ namespace DrawingModel
         //PointerMoved Rectangle
         public void MovePointerRectangle(double valueX, double valueY)
         {
-            _hintRectangle.SetValueTwo(Math.Abs(valueX - _hintRectangle.GetValueX()), Math.Abs(valueY - _hintRectangle.GetValueY()));
+            _hintRectangle.SetValueSide(Math.Abs(valueX - _hintRectangle.GetValueX()), Math.Abs(valueY - _hintRectangle.GetValueY()));
             _hintRectangle.SetValue((valueX < _hintRectangle.GetValueX()) ? valueX : _firstPointX, (valueY < _hintRectangle.GetValueY()) ? valueY : _firstPointY);
         }
 
         //PointerMoved Ellipse
         public void MovePointerEllipse(double valueX, double valueY)
         {
-            _hintEllipse.SetValueTwo(Math.Abs(valueX - _hintEllipse.GetValueX()), Math.Abs(valueY - _hintEllipse.GetValueY()));
+            _hintEllipse.SetValueSide(Math.Abs(valueX - _hintEllipse.GetValueX()), Math.Abs(valueY - _hintEllipse.GetValueY()));
             _hintEllipse.SetValue((valueX < _hintEllipse.GetValueX()) ? valueX : _firstPointX, (valueY < _hintEllipse.GetValueY()) ? valueY : _firstPointY);
         }
 
@@ -168,7 +169,7 @@ namespace DrawingModel
         {
             Rectangle rectangle = new Rectangle();
             rectangle.SetValue((valueX < _firstPointX) ? valueX : _firstPointX, (valueY < _firstPointY) ? valueY : _firstPointY);
-            rectangle.SetValueTwo(Math.Abs(valueX - _firstPointX), Math.Abs(valueY - _firstPointY));
+            rectangle.SetValueSide(Math.Abs(valueX - _firstPointX), Math.Abs(valueY - _firstPointY));
             _commandManager.Execute(new AddShapeCommand(this, rectangle));
         }
 
@@ -177,7 +178,7 @@ namespace DrawingModel
         {
             Ellipse ellipse = new Ellipse();
             ellipse.SetValue((valueX < _firstPointX) ? valueX : _firstPointX, (valueY < _firstPointY) ? valueY : _firstPointY);
-            ellipse.SetValueTwo(Math.Abs(valueX - _firstPointX), Math.Abs(valueY - _firstPointY));
+            ellipse.SetValueSide(Math.Abs(valueX - _firstPointX), Math.Abs(valueY - _firstPointY));
             _commandManager.Execute(new AddShapeCommand(this, ellipse));
         }
 
@@ -188,8 +189,6 @@ namespace DrawingModel
             arrow.SetValue(_firstPointX, _firstPointY);
             arrow.SetValueTwo(valueX, valueY);
             arrow.SetValueThree();
-            Console.WriteLine("{0},{1},{2},{3},{4},{5},{6},{7}", arrow.GetValueX(), arrow.GetValueY(), arrow.GetValueX2(), arrow.GetValueY2(),
-                              arrow.GetValueX3(), arrow.GetValueY3(), arrow.GetValueX4(), arrow.GetValueY4());
             this._commandManager.Execute(new AddShapeCommand(this, arrow));
         }
 
@@ -275,10 +274,38 @@ namespace DrawingModel
             }
         }
         //---------------
+        //Delete
         public void Delete()
         {
             _commandManager.Execute(new DeleteShapeCommand(this, _shape[_shape.Count - 1]));
             NotifyModelChanged();
+        }
+
+        //PressSelected
+        public void PressSelected(double valueX, double valueY)
+        {
+            if (!_isButtonArrowPressed && !_isButtonEllipsePressed && !_isButtonLinePressed && !_isButtonRectanglePressed)
+            {
+                for (int i = _shape.Count - 1; i >= 0; i--)
+                {
+                    if (_shape[i].GetShapeFlag() == 1 || _shape[i].GetShapeFlag() == 4)
+                    {
+                        //若坐落在線段or箭頭的範圍內
+                        if (valueX > _shape[i].GetValueX() && valueX < _shape[i].GetValueX2() &&
+                                valueY > _shape[i].GetValueY() && valueY < _shape[i].GetValueY2())
+                        {
+                        }
+                    }
+                    else if (_shape[i].GetShapeFlag() == 2 || _shape[i].GetShapeFlag() == 3)
+                    {
+                        //若坐落在橢圓or長方形的範圍內
+                        if (valueX > _shape[i].GetValueX() && valueX < _shape[i].GetValueX() + _shape[i].GetWidth() &&
+                                valueY > _shape[i].GetValueY() && valueX < _shape[i].GetValueY() + _shape[i].GetHeight())
+                        {
+                        }
+                    }
+                }
+            }
         }
     }
 }

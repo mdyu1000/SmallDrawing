@@ -44,5 +44,25 @@ namespace DrawingForm.PresentationModel
             Pen pen = new Pen(Color.Blue, 5);
             _graphics.DrawLine(pen, (float)x1, (float)y1, (float)x2, (float)y2);
         }
+
+        //DrawLineSelected
+        public void DrawLineSelected(double x1, double y1, double x2, double y2)
+        {
+        }
+
+        //DrawRectangleSelected
+        public void DrawRectangleSelected(double valueX, double valueY, double width, double height)
+        {
+        }
+
+        //DrawEllipseSelected
+        public void DrawEllipseSelected(double valueX, double valueY, double width, double height)
+        {
+        }
+
+        //DrawArrowSelected
+        public void DrawArrowSelected(double x1, double y1, double x2, double y2)
+        {
+        }
     }
 }

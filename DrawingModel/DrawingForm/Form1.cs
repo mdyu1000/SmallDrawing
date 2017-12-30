@@ -77,6 +77,7 @@ namespace DrawingForm
             _isButtonPressed[THREE] = _presentationModel.IsButtonArrowPressed();
             _presentationModel.DrawCanvas();
             _model.PressPointer(e.X, e.Y, _isButtonPressed);
+            _model.PressSelected(e.X, e.Y);
             RefreshState();
         }
 

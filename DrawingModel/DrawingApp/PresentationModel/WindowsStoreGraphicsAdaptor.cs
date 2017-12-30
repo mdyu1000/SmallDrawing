@@ -65,22 +65,22 @@ namespace DrawingApp.PresentationModel
         }
 
         //DrawLineSelected
-        void DrawLineSelected(double x1, double y1, double x2, double y2)
+        public void DrawLineSelected(double x1, double y1, double x2, double y2)
         {
         }
 
         //DrawRectangleSelected
-        void DrawRectangleSelected(double valueX, double valueY, double width, double height)
+        public void DrawRectangleSelected(double valueX, double valueY, double width, double height)
         {
         }
 
         //DrawEllipseSelected
-        void DrawEllipseSelected(double valueX, double valueY, double width, double height)
+        public void DrawEllipseSelected(double valueX, double valueY, double width, double height)
         {
         }
 
         //DrawArrowSelected
-        void DrawArrowSelected(double x1, double y1, double x2, double y2)
+        public void DrawArrowSelected(double x1, double y1, double x2, double y2)
         {
         }
     }

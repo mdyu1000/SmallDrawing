@@ -22,5 +22,18 @@ namespace DrawingModel
 
         //DrawArrow
         void DrawArrow(double x1, double y1, double x2, double y2);
+
+        //DrawLineSelected
+        void DrawLineSelected(double x1, double y1, double x2, double y2);
+
+        //DrawRectangleSelected
+        void DrawRectangleSelected(double valueX, double valueY, double width, double height);
+
+        //DrawEllipseSelected
+        void DrawEllipseSelected(double valueX, double valueY, double width, double height);
+
+        //DrawArrowSelected
+        void DrawArrowSelected(double x1, double y1, double x2, double y2);
+
     }
 }

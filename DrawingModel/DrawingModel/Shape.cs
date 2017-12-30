@@ -14,7 +14,6 @@ namespace DrawingModel
         private double _valueY2;
         private double _width;
         private double _height;
-        private int _shapeFlag;
 
         //Draw
         public virtual void Draw(IGraphics graphics)

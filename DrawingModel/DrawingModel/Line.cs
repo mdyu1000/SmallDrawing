@@ -13,6 +13,9 @@ namespace DrawingModel
         public override void Draw(IGraphics graphics)
         {
             graphics.DrawLine(GetValueX(), GetValueY(), GetValueX2(), GetValueY2());
+
+            if (IsSelected())
+                graphics.DrawLineSelected(GetValueX(), GetValueY(), GetValueX2(), GetValueY2());
         }
 
         //GetShapeFlag

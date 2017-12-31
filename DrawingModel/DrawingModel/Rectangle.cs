@@ -12,6 +12,9 @@ namespace DrawingModel
         public override void Draw(IGraphics graphics)
         {
             graphics.DrawRectangle(GetValueX(), GetValueY(), GetWidth(), GetHeight());
+
+            if (IsSelected())
+                graphics.DrawRectangleSelected(GetValueX(), GetValueY(), GetWidth(), GetHeight());
         }
 
         //GetShapeFlag

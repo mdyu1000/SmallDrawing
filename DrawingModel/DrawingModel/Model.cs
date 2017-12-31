@@ -288,22 +288,22 @@ namespace DrawingModel
             {
                 for (int i = _shape.Count - 1; i >= 0; i--)
                 {
-                    if (_shape[i].GetShapeFlag() == 1 || _shape[i].GetShapeFlag() == 4)
+                    //若坐落在線段or箭頭的範圍內
+                    if (valueX > _shape[i].GetValueX() && valueX < _shape[i].GetValueX2() &&
+                            valueY > _shape[i].GetValueY() && valueY < _shape[i].GetValueY2() &&
+                            (_shape[i].GetShapeFlag() == 1 || _shape[i].GetShapeFlag() == 4))
                     {
-                        //若坐落在線段or箭頭的範圍內
-                        if (valueX > _shape[i].GetValueX() && valueX < _shape[i].GetValueX2() &&
-                                valueY > _shape[i].GetValueY() && valueY < _shape[i].GetValueY2())
-                        {
-                        }
+                        _shape[i].SetSelected(true);
                     }
-                    else if (_shape[i].GetShapeFlag() == 2 || _shape[i].GetShapeFlag() == 3)
+                    //若坐落在橢圓or長方形的範圍內
+                    else if (valueX > _shape[i].GetValueX() && valueX < _shape[i].GetValueX() + _shape[i].GetWidth() &&
+                             valueY > _shape[i].GetValueY() && valueX < _shape[i].GetValueY() + _shape[i].GetHeight() &&
+                             (_shape[i].GetShapeFlag() == 2 || _shape[i].GetShapeFlag() == 3))
                     {
-                        //若坐落在橢圓or長方形的範圍內
-                        if (valueX > _shape[i].GetValueX() && valueX < _shape[i].GetValueX() + _shape[i].GetWidth() &&
-                                valueY > _shape[i].GetValueY() && valueX < _shape[i].GetValueY() + _shape[i].GetHeight())
-                        {
-                        }
+                        _shape[i].SetSelected(true);
                     }
+
+                    //簡化判斷式
                 }
             }
         }

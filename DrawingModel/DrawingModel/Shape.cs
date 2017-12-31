@@ -14,6 +14,7 @@ namespace DrawingModel
         private double _valueY2;
         private double _width;
         private double _height;
+        private bool _isSelected;
 
         //Draw
         public virtual void Draw(IGraphics graphics)
@@ -83,6 +84,16 @@ namespace DrawingModel
             return this._height;
         }
 
+        public void SetSelected(bool isSelected)
+        {
+            _isSelected = isSelected;
+        }
+
+        //IsSelected
+        public bool IsSelected()
+        {
+            return _isSelected;
+        }
 
     }
 }

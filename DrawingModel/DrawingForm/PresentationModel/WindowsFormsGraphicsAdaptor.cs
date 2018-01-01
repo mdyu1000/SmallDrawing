@@ -5,7 +5,7 @@ namespace DrawingForm.PresentationModel
     class WindowsFormsGraphicsAdaptor : IGraphics
     {
         Graphics _graphics;
-
+        Pen _redPen = new Pen(Color.Red, 5);
 
         //WindowsFormsGraphicsAdaptor
         public WindowsFormsGraphicsAdaptor(Graphics graphics)
@@ -49,25 +49,25 @@ namespace DrawingForm.PresentationModel
         //DrawLineSelected
         public void DrawLineSelected(double x1, double y1, double x2, double y2)
         {
-            _graphics.DrawLine(Pens.Red, (float)x1, (float)y1, (float)x2, (float)y2);
+            _graphics.DrawLine(_redPen, (float)x1, (float)y1, (float)x2, (float)y2);
         }
 
         //DrawRectangleSelected
         public void DrawRectangleSelected(double valueX, double valueY, double width, double height)
         {
-            _graphics.DrawRectangle(Pens.Red, (float)valueX, (float)valueY, (float)width, (float)height);
+            _graphics.DrawRectangle(_redPen, (float)valueX, (float)valueY, (float)width, (float)height);
         }
 
         //DrawEllipseSelected
         public void DrawEllipseSelected(double valueX, double valueY, double width, double height)
         {
-            _graphics.DrawEllipse(Pens.Red, (float)valueX, (float)valueY, (float)width, (float)height);
+            _graphics.DrawEllipse(_redPen, (float)valueX, (float)valueY, (float)width, (float)height);
         }
 
         //DrawArrowSelected
         public void DrawArrowSelected(double x1, double y1, double x2, double y2)
         {
-            _graphics.DrawLine(Pens.Red, (float)x1, (float)y1, (float)x2, (float)y2);
+            _graphics.DrawLine(_redPen, (float)x1, (float)y1, (float)x2, (float)y2);
         }
     }
 }

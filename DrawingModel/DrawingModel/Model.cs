@@ -20,8 +20,9 @@ namespace DrawingModel
         bool _isButtonArrowPressed;
         List<Shape> _shape = new List<Shape>();
         private CommandManager _commandManager = new CommandManager();
-        IGraphics _graphic;
-        bool _isSelected;
+
+        Rectangle _rectangleSelected = new Rectangle();
+        //public Rectangle HintRect => _rectangleSelected;
 
         //PointerPressed
         public void PressPointer(double valueX, double valueY, bool[] isButtonPressed)
@@ -137,11 +138,9 @@ namespace DrawingModel
             {
                 _isPressed = false;
 
-                //Line 的 _hint
                 if (_isButtonLinePressed)
                     ReleasePointerLine(valueX, valueY);
 
-                //Rectangle 的 _hintRectangle
                 if (_isButtonRectanglePressed)
                     ReleasePointerRectangle(valueX, valueY);
 
@@ -159,8 +158,8 @@ namespace DrawingModel
         public void ReleasePointerLine(double valueX, double valueY)
         {
             Line hint = new Line();
-            hint.SetValue(_firstPointX, _firstPointY);
-            hint.SetValueTwo(valueX, valueY);
+            hint.SetValue(valueX, valueY);
+            hint.SetValueTwo(_firstPointX, _firstPointY);
             this._commandManager.Execute(new AddShapeCommand(this, hint));
         }
 
@@ -204,22 +203,28 @@ namespace DrawingModel
         //Draw
         public void Draw(IGraphics graphics)
         {
-            this._graphic = graphics;
-            _graphic.ClearAll();
+            graphics.ClearAll();
 
             foreach (Shape DisplayShape in _shape)
-                DisplayShape.Draw(_graphic);
+            {
+                DisplayShape.Draw(graphics);
+
+                if (DisplayShape.IsSelected())
+                {
+                    DisplayShape.DrawSelected(graphics);
+                }
+            }
 
             if (_isPressed)
             {
                 if (_isButtonLinePressed)
-                    _hint.Draw(_graphic);
+                    _hint.Draw(graphics);
                 else if (_isButtonRectanglePressed)
-                    _hintRectangle.Draw(_graphic);
+                    _hintRectangle.Draw(graphics);
                 else if (_isButtonEllipsePressed)
-                    _hintEllipse.Draw(_graphic);
+                    _hintEllipse.Draw(graphics);
                 else if (_isButtonArrowPressed)
-                    _hintArrow.Draw(_graphic);
+                    _hintArrow.Draw(graphics);
             }
         }
 
@@ -284,27 +289,9 @@ namespace DrawingModel
         //PressSelected
         public void PressSelected(double valueX, double valueY)
         {
-            if (!_isButtonArrowPressed && !_isButtonEllipsePressed && !_isButtonLinePressed && !_isButtonRectanglePressed)
+            for (int i = _shape.Count - 1; i >= 0; i--)
             {
-                for (int i = _shape.Count - 1; i >= 0; i--)
-                {
-                    //若坐落在線段or箭頭的範圍內
-                    if (valueX > _shape[i].GetValueX() && valueX < _shape[i].GetValueX2() &&
-                            valueY > _shape[i].GetValueY() && valueY < _shape[i].GetValueY2() &&
-                            (_shape[i].GetShapeFlag() == 1 || _shape[i].GetShapeFlag() == 4))
-                    {
-                        _shape[i].SetSelected(true);
-                    }
-                    //若坐落在橢圓or長方形的範圍內
-                    else if (valueX > _shape[i].GetValueX() && valueX < _shape[i].GetValueX() + _shape[i].GetWidth() &&
-                             valueY > _shape[i].GetValueY() && valueX < _shape[i].GetValueY() + _shape[i].GetHeight() &&
-                             (_shape[i].GetShapeFlag() == 2 || _shape[i].GetShapeFlag() == 3))
-                    {
-                        _shape[i].SetSelected(true);
-                    }
-
-                    //簡化判斷式
-                }
+                _shape[i].SetSelected(valueX, valueY);
             }
         }
     }

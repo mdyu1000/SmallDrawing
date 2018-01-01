@@ -14,10 +14,15 @@ namespace DrawingModel
         private double _valueY2;
         private double _width;
         private double _height;
-        private bool _isSelected;
+        protected bool _isSelected;
 
         //Draw
         public virtual void Draw(IGraphics graphics)
+        {
+        }
+
+        //Draw
+        public virtual void DrawSelected(IGraphics graphics)
         {
         }
 
@@ -25,6 +30,32 @@ namespace DrawingModel
         public virtual int GetShapeFlag()
         {
             return 0;
+        }
+
+        //SetSelected
+        public void SetSelected(double pointX, double pointY)
+        {
+            if (GetShapeFlag() == 1 || GetShapeFlag() == 4)
+            {
+                if (_valueX2 > _valueX && _valueY2 > _valueY && pointX > this._valueX && pointX < this._valueX2 && pointY > this._valueY && pointY < this._valueY2)
+                    this._isSelected = true;
+                else if (_valueX2 < _valueX && _valueY2 < _valueY && pointX > this._valueX2 && pointX < this._valueX && pointY > this._valueY2 && pointY < this._valueY)
+                    this._isSelected = true;
+                else if (_valueX2 > _valueX && _valueY2 < _valueY && pointX > this._valueX && pointX < this._valueX2 && pointY > this._valueY2 && pointY < this._valueY)
+                    this._isSelected = true;
+                else if (_valueX2 < _valueX && _valueY2 > _valueY && pointX > this._valueX2 && pointX < this._valueX && pointY > this._valueY && pointY < this._valueY2)
+                    this._isSelected = true;
+            }
+            else if ((GetShapeFlag() == 2 || GetShapeFlag() == 3) && pointX > this._valueX && pointX < this._valueX + _width && pointY > this._valueY && pointY < this._valueY + _width)
+                this._isSelected = true;
+            else
+                this._isSelected = false;
+        }
+
+        //GetSelected
+        public bool IsSelected()
+        {
+            return this._isSelected;
         }
 
         //SetValue
@@ -83,17 +114,5 @@ namespace DrawingModel
         {
             return this._height;
         }
-
-        public void SetSelected(bool isSelected)
-        {
-            _isSelected = isSelected;
-        }
-
-        //IsSelected
-        public bool IsSelected()
-        {
-            return _isSelected;
-        }
-
     }
 }

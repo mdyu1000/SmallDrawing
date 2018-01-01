@@ -8,11 +8,16 @@ namespace DrawingModel
 {
     public class Rectangle : Shape
     {
+
         //Draw
         public override void Draw(IGraphics graphics)
         {
             graphics.DrawRectangle(GetValueX(), GetValueY(), GetWidth(), GetHeight());
+        }
 
+        //DrawSelected
+        public override void DrawSelected(IGraphics graphics)
+        {
             if (IsSelected())
                 graphics.DrawRectangleSelected(GetValueX(), GetValueY(), GetWidth(), GetHeight());
         }
@@ -22,5 +27,6 @@ namespace DrawingModel
         {
             return 2;
         }
+
     }
 }

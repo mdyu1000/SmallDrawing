@@ -164,7 +164,7 @@
             this._buttonSelecte.Name = "_buttonSelecte";
             this._buttonSelecte.Size = new System.Drawing.Size(107, 43);
             this._buttonSelecte.TabIndex = 4;
-            this._buttonSelecte.Text = "Select";
+            this._buttonSelecte.Text = "Select_Mode";
             this._buttonSelecte.UseVisualStyleBackColor = true;
             this._buttonSelecte.Click += new System.EventHandler(this.ClickButtonSelect);
             //

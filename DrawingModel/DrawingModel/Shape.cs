@@ -175,5 +175,11 @@ namespace DrawingModel
         {
             return this._valueY4;
         }
+
+        //SetCancleSelected
+        public void SetCancleSelected()
+        {
+            this._isSelected = false;
+        }
     }
 }

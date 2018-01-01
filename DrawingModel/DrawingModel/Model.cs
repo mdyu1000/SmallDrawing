@@ -306,8 +306,7 @@ namespace DrawingModel
         //PressSelected
         public void PressSelected(double valueX, double valueY, bool isButtonSelectPressed)
         {
-            Console.WriteLine("isButtonSelectPressed={0}", isButtonSelectPressed);
-
+            //Console.WriteLine("isButtonSelectPressed={0}", isButtonSelectPressed);
             if (isButtonSelectPressed)
                 for (int i = _shape.Count - 1; i >= 0; i--)
                 {
@@ -320,17 +319,6 @@ namespace DrawingModel
                 for (int i = _shape.Count - 1; i >= 0; i--)
                     if (_shape[i].IsSelected())
                         _shape[i].SetCancleSelected();
-        }
-
-        //MoveCommand
-        public void MoveCommand(double valueX, double valueY)
-        {
-            if (this.DetectSelectedIndex() != UNSELECTED)
-            {
-                NotifyModelChanged();
-            }
-
-            //_commandManager.Execute(new MoveShapeCommand(this, _shape[0]));
         }
 
         // Return which shape is selected?

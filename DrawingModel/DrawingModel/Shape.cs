@@ -8,14 +8,14 @@ namespace DrawingModel
 {
     public class Shape
     {
-        private double _valueX;
-        private double _valueY;
-        private double _valueX2;
-        private double _valueY2;
-        private double _valueX3;
-        private double _valueY3;
-        private double _valueX4;
-        private double _valueY4;
+        protected double _valueX;
+        protected double _valueY;
+        protected double _valueX2;
+        protected double _valueY2;
+        protected double _valueX3;
+        protected double _valueY3;
+        protected double _valueX4;
+        protected double _valueY4;
         private double _width;
         private double _height;
         protected bool _isSelected;
@@ -61,20 +61,8 @@ namespace DrawingModel
         //MoveSelected
         public virtual void MoveSelected(double pointX, double pointY)
         {
-            if (pointX < _valueX)
-                pointX -= 2 * pointX;
-
-            if (pointY < _valueY)
-                pointY -= 2 * pointY;
-
-            this._valueX += pointX;
-            this._valueY += pointY;
-
-            if (GetShapeFlag() == 1 || GetShapeFlag() == 4)
-            {
-                this._valueX2 += pointX;
-                this._valueY2 += pointY;
-            }
+            this._valueX = pointX;
+            this._valueY = pointY;
         }
 
         //GetSelected
@@ -102,6 +90,16 @@ namespace DrawingModel
         {
             this._width = width;
             this._height = height;
+        }
+
+        //SetLineSide
+        public void SetLineSide()
+        {
+            if (GetShapeFlag() == 1 || GetShapeFlag() == 4)
+            {
+                this._width = Math.Abs(this._valueX2 - this._valueX);
+                this._height = Math.Abs(this._valueY2 - this._valueY);
+            }
         }
 
         //SetValueThree

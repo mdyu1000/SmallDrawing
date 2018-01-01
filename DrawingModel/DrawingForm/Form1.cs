@@ -91,7 +91,6 @@ namespace DrawingForm
         public void HandleCanvasMoved(object sender, System.Windows.Forms.MouseEventArgs e)
         {
             _model.MovePointer(e.X, e.Y);
-            _model.MoveCommand(e.X, e.Y);
         }
 
         //HandleCanvasReleased

@@ -11,6 +11,7 @@ namespace DrawingForm.PresentationModel
         bool _isButtonEllipsePressed;
         bool _isButtonRectanglePressed;
         bool _isButtonArrowPressed;
+        bool _isButtonSelectPressed;
 
         public PresentationModel(Model model)
         {
@@ -52,6 +53,7 @@ namespace DrawingForm.PresentationModel
             _isButtonLinePressed = false;
             _isButtonEllipsePressed = false;
             _isButtonArrowPressed = false;
+            _isButtonSelectPressed = false;
         }
 
         //ClickButtonLine
@@ -61,6 +63,7 @@ namespace DrawingForm.PresentationModel
             _isButtonRectanglePressed = false;
             _isButtonEllipsePressed = false;
             _isButtonArrowPressed = false;
+            _isButtonSelectPressed = false;
         }
 
         //ClickButtonEllipse
@@ -70,12 +73,24 @@ namespace DrawingForm.PresentationModel
             _isButtonRectanglePressed = false;
             _isButtonLinePressed = false;
             _isButtonArrowPressed = false;
+            _isButtonSelectPressed = false;
         }
 
         //ClickButtonArrow
         public void ClickButtonArrow()
         {
             _isButtonArrowPressed = true;
+            _isButtonEllipsePressed = false;
+            _isButtonRectanglePressed = false;
+            _isButtonLinePressed = false;
+            _isButtonSelectPressed = false;
+        }
+
+        //ClickButtonSelect
+        public void ClickButtonSelect()
+        {
+            _isButtonSelectPressed = true;
+            _isButtonArrowPressed = false;
             _isButtonEllipsePressed = false;
             _isButtonRectanglePressed = false;
             _isButtonLinePressed = false;
@@ -96,7 +111,7 @@ namespace DrawingForm.PresentationModel
         //ClickButtonUndo
         public void ClickButtonDelete()
         {
-            _model.Delete();
+            _model.DeleteCommand();
         }
 
         //IsButtonRectanglePressed
@@ -151,6 +166,12 @@ namespace DrawingForm.PresentationModel
         public bool IsButtonDeleteEnabled()
         {
             return _isButtonClearEnabled;
+        }
+
+        //IsButtonSelectPressed
+        public bool IsButtonSelectPressed()
+        {
+            return _isButtonSelectPressed;
         }
     }
 }

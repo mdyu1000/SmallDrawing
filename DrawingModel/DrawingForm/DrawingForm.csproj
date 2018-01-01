@@ -113,6 +113,9 @@
     <Compile Include="..\DrawingModel\Model.cs">
       <Link>Model\Model.cs</Link>
     </Compile>
+    <Compile Include="..\DrawingModel\MoveShapeCommand..cs">
+      <Link>MoveShapeCommand..cs</Link>
+    </Compile>
     <Compile Include="..\DrawingModel\Rectangle.cs">
       <Link>Model\Rectangle.cs</Link>
     </Compile>

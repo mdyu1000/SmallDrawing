@@ -12,6 +12,10 @@ namespace DrawingModel
         private double _valueY;
         private double _valueX2;
         private double _valueY2;
+        private double _valueX3;
+        private double _valueY3;
+        private double _valueX4;
+        private double _valueY4;
         private double _width;
         private double _height;
         protected bool _isSelected;
@@ -45,11 +49,32 @@ namespace DrawingModel
                     this._isSelected = true;
                 else if (_valueX2 < _valueX && _valueY2 > _valueY && pointX > this._valueX2 && pointX < this._valueX && pointY > this._valueY && pointY < this._valueY2)
                     this._isSelected = true;
+                else
+                    this._isSelected = false;
             }
             else if ((GetShapeFlag() == 2 || GetShapeFlag() == 3) && pointX > this._valueX && pointX < this._valueX + _width && pointY > this._valueY && pointY < this._valueY + _width)
                 this._isSelected = true;
             else
                 this._isSelected = false;
+        }
+
+        //MoveSelected
+        public virtual void MoveSelected(double pointX, double pointY)
+        {
+            if (pointX < _valueX)
+                pointX -= 2 * pointX;
+
+            if (pointY < _valueY)
+                pointY -= 2 * pointY;
+
+            this._valueX += pointX;
+            this._valueY += pointY;
+
+            if (GetShapeFlag() == 1 || GetShapeFlag() == 4)
+            {
+                this._valueX2 += pointX;
+                this._valueY2 += pointY;
+            }
         }
 
         //GetSelected
@@ -77,6 +102,18 @@ namespace DrawingModel
         {
             this._width = width;
             this._height = height;
+        }
+
+        //SetValueThree
+        public void SetValueThree()
+        {
+            double _theta = Math.Atan2(GetValueY2() - GetValueY(), GetValueX2() - GetValueX());
+            double _sin = Math.Sin(_theta);
+            double _cos = Math.Cos(_theta);
+            this._valueX3 = GetValueX2() - (15 * _cos - 15 * _sin);
+            this._valueY3 = GetValueY2() - (15 * _sin + 15 * _cos);
+            this._valueX4 = GetValueX2() - (15 * _cos + 15 * _sin);
+            this._valueY4 = GetValueY2() + (15 * _cos - 15 * _sin);
         }
 
         //GetValueX
@@ -113,6 +150,30 @@ namespace DrawingModel
         public double GetHeight()
         {
             return this._height;
+        }
+
+        //GetValueX3
+        public double GetValueX3()
+        {
+            return this._valueX3;
+        }
+
+        //GetValueX4
+        public double GetValueX4()
+        {
+            return this._valueX4;
+        }
+
+        //GetValueY3
+        public double GetValueY3()
+        {
+            return this._valueY3;
+        }
+
+        //GetValueY4
+        public double GetValueY4()
+        {
+            return this._valueY4;
         }
     }
 }

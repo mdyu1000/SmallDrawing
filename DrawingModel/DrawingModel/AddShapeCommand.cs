@@ -26,7 +26,7 @@ namespace DrawingModel
         //UndoExecute
         public void UndoExecute()
         {
-            _model.DeleteShape();
+            _model.DeleteLastShape();
         }
 
     }

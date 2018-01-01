@@ -20,6 +20,7 @@ namespace DrawingModel
         bool _isButtonArrowPressed;
         List<Shape> _shape = new List<Shape>();
         private CommandManager _commandManager = new CommandManager();
+        private const int UNSELECTED = -1;
 
         Rectangle _rectangleSelected = new Rectangle();
         //public Rectangle HintRect => _rectangleSelected;
@@ -99,6 +100,11 @@ namespace DrawingModel
                     MovePointerEllipse(valueX, valueY);
                 else if (_isButtonArrowPressed)
                     MovePointerArrow(valueX, valueY);
+
+                if (this.DetectSelectedIndex() != UNSELECTED)
+                {
+                    this._shape[DetectSelectedIndex()].MoveSelected(valueX, valueY);
+                }
 
                 NotifyModelChanged();
             }
@@ -235,7 +241,7 @@ namespace DrawingModel
         }
 
         //DeleteShape
-        public void DeleteShape()
+        public void DeleteLastShape()
         {
             _shape.RemoveAt(_shape.Count - 1);
         }
@@ -278,21 +284,57 @@ namespace DrawingModel
                 return _commandManager.IsUndoEnabled;
             }
         }
-        //---------------
+
         //Delete
-        public void Delete()
+        public void DeleteCommand()
         {
-            _commandManager.Execute(new DeleteShapeCommand(this, _shape[_shape.Count - 1]));
+            int index = 0;
+
+            if (this.DetectSelectedIndex() != UNSELECTED)
+                _commandManager.Execute(new DeleteShapeCommand(this, _shape[index]));
+
             NotifyModelChanged();
         }
 
-        //PressSelected
-        public void PressSelected(double valueX, double valueY)
+        //DeleteSpecifyShape
+        public void DeleteSpecifyShape()
         {
-            for (int i = _shape.Count - 1; i >= 0; i--)
+            if (this.DetectSelectedIndex() != UNSELECTED)
+                this._shape.RemoveAt(DetectSelectedIndex());
+        }
+
+        //PressSelected
+        public void PressSelected(double valueX, double valueY, bool isButtonSelectPressed)
+        {
+            if (isButtonSelectPressed)
+                for (int i = _shape.Count - 1; i >= 0; i--)
+                {
+                    _shape[i].SetSelected(valueX, valueY);
+
+                    if (_shape[i].IsSelected())
+                        break;
+                }
+        }
+
+        //MoveCommand
+        public void MoveCommand(double valueX, double valueY)
+        {
+            if (this.DetectSelectedIndex() != UNSELECTED)
             {
-                _shape[i].SetSelected(valueX, valueY);
+                NotifyModelChanged();
             }
+
+            //_commandManager.Execute(new MoveShapeCommand(this, _shape[0]));
+        }
+
+        // Return which shape is selected?
+        public int DetectSelectedIndex()
+        {
+            for (int i = 0; i < this._shape.Count; i++)
+                if (_shape[i].IsSelected())
+                    return i;
+
+            return UNSELECTED;
         }
     }
 }

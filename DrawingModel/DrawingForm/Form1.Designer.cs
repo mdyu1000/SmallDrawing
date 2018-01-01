@@ -35,13 +35,14 @@
             this._buttonClear = new System.Windows.Forms.Button();
             this._buttonRectangle = new System.Windows.Forms.Button();
             this._buttonLine = new System.Windows.Forms.Button();
+            this._buttonEllipse = new System.Windows.Forms.Button();
+            this._buttonArrow = new System.Windows.Forms.Button();
+            this._buttonSelecte = new System.Windows.Forms.Button();
             this._tableLayoutPanelService = new System.Windows.Forms.TableLayoutPanel();
             this._buttonRedo = new System.Windows.Forms.Button();
             this._buttonUndo = new System.Windows.Forms.Button();
             this._buttonUpload = new System.Windows.Forms.Button();
             this._buttonDelete = new System.Windows.Forms.Button();
-            this._buttonEllipse = new System.Windows.Forms.Button();
-            this._buttonArrow = new System.Windows.Forms.Button();
             this._tableLayoutPanel.SuspendLayout();
             this._tableLayoutPanelShape.SuspendLayout();
             this._tableLayoutPanelService.SuspendLayout();
@@ -83,28 +84,30 @@
             //
             this._tableLayoutPanelShape.ColumnCount = 1;
             this._tableLayoutPanelShape.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this._tableLayoutPanelShape.Controls.Add(this._buttonClear, 0, 0);
+            this._tableLayoutPanelShape.Controls.Add(this._buttonClear, 0, 5);
             this._tableLayoutPanelShape.Controls.Add(this._buttonRectangle, 0, 1);
             this._tableLayoutPanelShape.Controls.Add(this._buttonLine, 0, 2);
             this._tableLayoutPanelShape.Controls.Add(this._buttonEllipse, 0, 3);
             this._tableLayoutPanelShape.Controls.Add(this._buttonArrow, 0, 4);
+            this._tableLayoutPanelShape.Controls.Add(this._buttonSelecte, 0, 0);
             this._tableLayoutPanelShape.Location = new System.Drawing.Point(3, 67);
             this._tableLayoutPanelShape.Name = "_tableLayoutPanelShape";
-            this._tableLayoutPanelShape.RowCount = 5;
-            this._tableLayoutPanelShape.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this._tableLayoutPanelShape.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this._tableLayoutPanelShape.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this._tableLayoutPanelShape.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this._tableLayoutPanelShape.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this._tableLayoutPanelShape.Size = new System.Drawing.Size(113, 279);
+            this._tableLayoutPanelShape.RowCount = 6;
+            this._tableLayoutPanelShape.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this._tableLayoutPanelShape.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this._tableLayoutPanelShape.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this._tableLayoutPanelShape.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this._tableLayoutPanelShape.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this._tableLayoutPanelShape.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this._tableLayoutPanelShape.Size = new System.Drawing.Size(113, 358);
             this._tableLayoutPanelShape.TabIndex = 4;
             //
             // _buttonClear
             //
             this._buttonClear.Dock = System.Windows.Forms.DockStyle.Top;
-            this._buttonClear.Location = new System.Drawing.Point(3, 3);
+            this._buttonClear.Location = new System.Drawing.Point(3, 298);
             this._buttonClear.Name = "_buttonClear";
-            this._buttonClear.Size = new System.Drawing.Size(107, 49);
+            this._buttonClear.Size = new System.Drawing.Size(107, 40);
             this._buttonClear.TabIndex = 2;
             this._buttonClear.Text = "Clear";
             this._buttonClear.UseVisualStyleBackColor = true;
@@ -113,9 +116,9 @@
             // _buttonRectangle
             //
             this._buttonRectangle.Dock = System.Windows.Forms.DockStyle.Top;
-            this._buttonRectangle.Location = new System.Drawing.Point(3, 58);
+            this._buttonRectangle.Location = new System.Drawing.Point(3, 62);
             this._buttonRectangle.Name = "_buttonRectangle";
-            this._buttonRectangle.Size = new System.Drawing.Size(107, 49);
+            this._buttonRectangle.Size = new System.Drawing.Size(107, 40);
             this._buttonRectangle.TabIndex = 0;
             this._buttonRectangle.Text = "Rectangle";
             this._buttonRectangle.UseVisualStyleBackColor = true;
@@ -124,13 +127,46 @@
             // _buttonLine
             //
             this._buttonLine.Dock = System.Windows.Forms.DockStyle.Top;
-            this._buttonLine.Location = new System.Drawing.Point(3, 113);
+            this._buttonLine.Location = new System.Drawing.Point(3, 121);
             this._buttonLine.Name = "_buttonLine";
-            this._buttonLine.Size = new System.Drawing.Size(107, 49);
+            this._buttonLine.Size = new System.Drawing.Size(107, 40);
             this._buttonLine.TabIndex = 1;
             this._buttonLine.Text = "Line";
             this._buttonLine.UseVisualStyleBackColor = true;
             this._buttonLine.Click += new System.EventHandler(this.ClickButtonLine);
+            //
+            // _buttonEllipse
+            //
+            this._buttonEllipse.Dock = System.Windows.Forms.DockStyle.Top;
+            this._buttonEllipse.Location = new System.Drawing.Point(3, 180);
+            this._buttonEllipse.Name = "_buttonEllipse";
+            this._buttonEllipse.Size = new System.Drawing.Size(107, 40);
+            this._buttonEllipse.TabIndex = 0;
+            this._buttonEllipse.Text = "Ellipse";
+            this._buttonEllipse.UseVisualStyleBackColor = true;
+            this._buttonEllipse.Click += new System.EventHandler(this.ClickButtonEllipse);
+            //
+            // _buttonArrow
+            //
+            this._buttonArrow.Dock = System.Windows.Forms.DockStyle.Top;
+            this._buttonArrow.Location = new System.Drawing.Point(3, 239);
+            this._buttonArrow.Name = "_buttonArrow";
+            this._buttonArrow.Size = new System.Drawing.Size(107, 39);
+            this._buttonArrow.TabIndex = 3;
+            this._buttonArrow.Text = "Arrow";
+            this._buttonArrow.UseVisualStyleBackColor = true;
+            this._buttonArrow.Click += new System.EventHandler(this.ClickButtonArrow);
+            //
+            // _buttonSelecte
+            //
+            this._buttonSelecte.Dock = System.Windows.Forms.DockStyle.Top;
+            this._buttonSelecte.Location = new System.Drawing.Point(3, 3);
+            this._buttonSelecte.Name = "_buttonSelecte";
+            this._buttonSelecte.Size = new System.Drawing.Size(107, 43);
+            this._buttonSelecte.TabIndex = 4;
+            this._buttonSelecte.Text = "Select";
+            this._buttonSelecte.UseVisualStyleBackColor = true;
+            this._buttonSelecte.Click += new System.EventHandler(this.ClickButtonSelect);
             //
             // _tableLayoutPanelService
             //
@@ -197,28 +233,6 @@
             this._buttonDelete.UseVisualStyleBackColor = true;
             this._buttonDelete.Click += new System.EventHandler(this.ClickButtonDelete);
             //
-            // _buttonEllipse
-            //
-            this._buttonEllipse.Dock = System.Windows.Forms.DockStyle.Top;
-            this._buttonEllipse.Location = new System.Drawing.Point(3, 168);
-            this._buttonEllipse.Name = "_buttonEllipse";
-            this._buttonEllipse.Size = new System.Drawing.Size(107, 49);
-            this._buttonEllipse.TabIndex = 0;
-            this._buttonEllipse.Text = "Ellipse";
-            this._buttonEllipse.UseVisualStyleBackColor = true;
-            this._buttonEllipse.Click += new System.EventHandler(this.ClickButtonEllipse);
-            //
-            // _buttonArrow
-            //
-            this._buttonArrow.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._buttonArrow.Location = new System.Drawing.Point(3, 223);
-            this._buttonArrow.Name = "_buttonArrow";
-            this._buttonArrow.Size = new System.Drawing.Size(107, 53);
-            this._buttonArrow.TabIndex = 3;
-            this._buttonArrow.Text = "Arrow";
-            this._buttonArrow.UseVisualStyleBackColor = true;
-            this._buttonArrow.Click += new System.EventHandler(this.ClickButtonArrow);
-            //
             // Form1
             //
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -248,6 +262,7 @@
         private System.Windows.Forms.Button _buttonDelete;
         private System.Windows.Forms.Button _buttonEllipse;
         private System.Windows.Forms.Button _buttonArrow;
+        private System.Windows.Forms.Button _buttonSelecte;
     }
 }
 

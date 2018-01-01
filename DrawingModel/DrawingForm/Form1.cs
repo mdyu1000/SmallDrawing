@@ -66,6 +66,12 @@ namespace DrawingForm
             RefreshState();
         }
 
+        private void ClickButtonSelect(object sender, EventArgs e)
+        {
+            _presentationModel.ClickButtonSelect();
+            RefreshState();
+        }
+
         //HandleCanvasPressed
         public void HandleCanvasPressed(object sender, System.Windows.Forms.MouseEventArgs e)
         {
@@ -77,8 +83,15 @@ namespace DrawingForm
             _isButtonPressed[THREE] = _presentationModel.IsButtonArrowPressed();
             _presentationModel.DrawCanvas();
             _model.PressPointer(e.X, e.Y, _isButtonPressed);
-            _model.PressSelected(e.X, e.Y);
+            _model.PressSelected(e.X, e.Y, _presentationModel.IsButtonSelectPressed());
             RefreshState();
+        }
+
+        //HandleCanvasMoved
+        public void HandleCanvasMoved(object sender, System.Windows.Forms.MouseEventArgs e)
+        {
+            _model.MovePointer(e.X, e.Y);
+            _model.MoveCommand(e.X, e.Y);
         }
 
         //HandleCanvasReleased
@@ -87,12 +100,6 @@ namespace DrawingForm
             _presentationModel.ReleaseCanvas();
             _model.ReleasePointer(e.X, e.Y);
             RefreshState();
-        }
-
-        //HandleCanvasMoved
-        public void HandleCanvasMoved(object sender, System.Windows.Forms.MouseEventArgs e)
-        {
-            _model.MovePointer(e.X, e.Y);
         }
 
         //HandleCanvasPaint
@@ -147,8 +154,9 @@ namespace DrawingForm
             _buttonClear.Enabled = _presentationModel.IsButtonShapeEnabled();
             _buttonRedo.Enabled = _presentationModel.IsButtonRedoEnabled();
             _buttonUndo.Enabled = _presentationModel.IsButtonUndoEnabled();
-            _buttonDelete.Enabled = _presentationModel.IsButtonDeleteEnabled();
+            _buttonDelete.Enabled = _presentationModel.IsButtonShapeEnabled();
             Invalidate();
         }
+
     }
 }

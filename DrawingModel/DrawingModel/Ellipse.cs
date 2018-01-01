@@ -12,14 +12,14 @@ namespace DrawingModel
         //Draw
         public override void Draw(IGraphics graphics)
         {
-            graphics.DrawEllipse(GetValueX(), GetValueY(), GetWidth(), GetHeight());
+            graphics.DrawEllipse(GetValueX(), GetValueY(), _width, _height);
         }
 
         //DrawSelected
         public override void DrawSelected(IGraphics graphics)
         {
             if (IsSelected())
-                graphics.DrawEllipseSelected(GetValueX(), GetValueY(), GetWidth(), GetHeight());
+                graphics.DrawEllipseSelected(GetValueX(), GetValueY(), _width, _height);
         }
 
 

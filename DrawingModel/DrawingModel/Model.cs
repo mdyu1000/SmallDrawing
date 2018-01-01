@@ -152,13 +152,10 @@ namespace DrawingModel
                 else if (_isButtonArrowPressed)
                     ReleasePointerArrow(valueX, valueY);
 
-                if (this.DetectSelectedIndex() != UNSELECTED)
+                if (this.DetectSelectedIndex() != UNSELECTED && IsMove())
                 {
-                    if (IsMove())
-                    {
-                        this._shape[DetectSelectedIndex()].SaveDynamicValue(valueX, valueY);
-                        _commandManager.Execute(new MoveShapeCommand(this, _shape[DetectSelectedIndex()]));
-                    }
+                    this._shape[DetectSelectedIndex()].SaveDynamicValue(valueX, valueY);
+                    _commandManager.Execute(new MoveShapeCommand(this, _shape[DetectSelectedIndex()]));
                 }
 
                 NotifyModelChanged();

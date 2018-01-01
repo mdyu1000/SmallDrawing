@@ -16,8 +16,8 @@ namespace DrawingModel
         protected double _valueY3;
         protected double _valueX4;
         protected double _valueY4;
-        private double _width;
-        private double _height;
+        protected double _width;
+        protected double _height;
         protected bool _isSelected;
         protected double _originalValueX;
         protected double _originalValueY;
@@ -153,42 +153,6 @@ namespace DrawingModel
         public double GetValueY2()
         {
             return this._valueY2;
-        }
-
-        //GetWidth
-        public double GetWidth()
-        {
-            return this._width;
-        }
-
-        //GetHeight
-        public double GetHeight()
-        {
-            return this._height;
-        }
-
-        //GetValueX3
-        public double GetValueX3()
-        {
-            return this._valueX3;
-        }
-
-        //GetValueX4
-        public double GetValueX4()
-        {
-            return this._valueX4;
-        }
-
-        //GetValueY3
-        public double GetValueY3()
-        {
-            return this._valueY3;
-        }
-
-        //GetValueY4
-        public double GetValueY4()
-        {
-            return this._valueY4;
         }
 
         //SetCancleSelected

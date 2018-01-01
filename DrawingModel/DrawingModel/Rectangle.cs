@@ -12,14 +12,14 @@ namespace DrawingModel
         //Draw
         public override void Draw(IGraphics graphics)
         {
-            graphics.DrawRectangle(GetValueX(), GetValueY(), GetWidth(), GetHeight());
+            graphics.DrawRectangle(GetValueX(), GetValueY(), _width, _height);
         }
 
         //DrawSelected
         public override void DrawSelected(IGraphics graphics)
         {
             if (IsSelected())
-                graphics.DrawRectangleSelected(GetValueX(), GetValueY(), GetWidth(), GetHeight());
+                graphics.DrawRectangleSelected(GetValueX(), GetValueY(), _width, _height);
         }
 
         //GetShapeFlag

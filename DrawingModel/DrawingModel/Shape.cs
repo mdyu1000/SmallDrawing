@@ -19,6 +19,10 @@ namespace DrawingModel
         private double _width;
         private double _height;
         protected bool _isSelected;
+        protected double _originalValueX;
+        protected double _originalValueY;
+        protected double _movePointX;
+        protected double _movePointY;
 
         //Draw
         public virtual void Draw(IGraphics graphics)
@@ -63,6 +67,19 @@ namespace DrawingModel
         {
             this._valueX = pointX;
             this._valueY = pointY;
+        }
+
+        //SaveValue
+        public void SaveValue()
+        {
+            this._originalValueX = this._valueX;
+            this._originalValueY = this._valueY;
+        }
+
+        public void SaveDynamicValue(double pointX, double pointY)
+        {
+            this._movePointX = pointX;
+            this._movePointY = pointY;
         }
 
         //GetSelected
@@ -178,6 +195,30 @@ namespace DrawingModel
         public void SetCancleSelected()
         {
             this._isSelected = false;
+        }
+
+        //_originalValueX
+        public double GetOriginalValueX()
+        {
+            return this._originalValueX;
+        }
+
+        //_originalValueY
+        public double GetOriginalValueY()
+        {
+            return this._originalValueY;
+        }
+
+        //_movePointX
+        public double GetMovePointX()
+        {
+            return this._movePointX;
+        }
+
+        //GetMovePointY
+        public double GetMovePointY()
+        {
+            return this._movePointY;
         }
     }
 }

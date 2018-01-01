@@ -21,6 +21,7 @@ namespace DrawingModel
         List<Shape> _shape = new List<Shape>();
         private CommandManager _commandManager = new CommandManager();
         private const int UNSELECTED = -1;
+        private const int UNMOVED = -1;
 
         Rectangle _rectangleSelected = new Rectangle();
         //public Rectangle HintRect => _rectangleSelected;
@@ -102,9 +103,7 @@ namespace DrawingModel
                     MovePointerArrow(valueX, valueY);
 
                 if (this.DetectSelectedIndex() != UNSELECTED)
-                {
                     this._shape[DetectSelectedIndex()].MoveSelected(valueX, valueY);
-                }
 
                 NotifyModelChanged();
             }
@@ -146,19 +145,35 @@ namespace DrawingModel
 
                 if (_isButtonLinePressed)
                     ReleasePointerLine(valueX, valueY);
-
-                if (_isButtonRectanglePressed)
+                else if (_isButtonRectanglePressed)
                     ReleasePointerRectangle(valueX, valueY);
-
-                if (_isButtonEllipsePressed)
+                else if (_isButtonEllipsePressed)
                     ReleasePointerEllipse(valueX, valueY);
-
-                if (_isButtonArrowPressed)
+                else if (_isButtonArrowPressed)
                     ReleasePointerArrow(valueX, valueY);
+
+                if (this.DetectSelectedIndex() != UNSELECTED)
+                {
+                    if (IsMove())
+                    {
+                        this._shape[DetectSelectedIndex()].SaveDynamicValue(valueX, valueY);
+                        _commandManager.Execute(new MoveShapeCommand(this, _shape[DetectSelectedIndex()]));
+                    }
+                }
 
                 NotifyModelChanged();
             }
         }
+
+        //DetectMovedIndex
+        public bool IsMove()
+        {
+            if (_shape[DetectSelectedIndex()].GetValueX() != _shape[DetectSelectedIndex()].GetOriginalValueX())
+                return true;
+
+            return false;
+        }
+
 
         //PointerReleased Line
         public void ReleasePointerLine(double valueX, double valueY)
@@ -306,19 +321,25 @@ namespace DrawingModel
         //PressSelected
         public void PressSelected(double valueX, double valueY, bool isButtonSelectPressed)
         {
-            //Console.WriteLine("isButtonSelectPressed={0}", isButtonSelectPressed);
             if (isButtonSelectPressed)
+            {
+                for (int i = _shape.Count - 1; i >= 0; i--)
+                    _shape[i].SetCancleSelected();
+
                 for (int i = _shape.Count - 1; i >= 0; i--)
                 {
-                    _shape[i].SetSelected(valueX, valueY);
+                    _shape[i].SetSelected(valueX, valueY); //判斷是否有點在shape內
 
                     if (_shape[i].IsSelected())
+                    {
+                        _shape[i].SaveValue(); //先儲存好移動前的原點座標
                         break;
+                    }
                 }
+            }
             else
                 for (int i = _shape.Count - 1; i >= 0; i--)
-                    if (_shape[i].IsSelected())
-                        _shape[i].SetCancleSelected();
+                    _shape[i].SetCancleSelected();
         }
 
         // Return which shape is selected?

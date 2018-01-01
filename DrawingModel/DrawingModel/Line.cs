@@ -40,21 +40,30 @@ namespace DrawingModel
                 this._valueX2 = this._valueX + GetWidth();
                 this._valueY2 = this._valueY + GetHeight();
             }
-            else if (GetValueX2() > GetValueX() && GetValueY2() < GetValueY())
+
+            if (GetValueX2() > GetValueX() && GetValueY2() < GetValueY())
             {
                 this._valueX = pointX;
                 this._valueY = pointY;
                 this._valueX2 = this._valueX + GetWidth();
                 this._valueY2 = this._valueY - GetHeight();
             }
-            else if (GetValueX2() < GetValueX() && GetValueY2() < GetValueY())
+
+            MoveSelectedTwo( pointX,  pointY);
+        }
+
+        //MoveSelected
+        public void MoveSelectedTwo(double pointX, double pointY)
+        {
+            if (GetValueX2() < GetValueX() && GetValueY2() < GetValueY())
             {
                 this._valueX = pointX;
                 this._valueY = pointY;
                 this._valueX2 = this._valueX - GetWidth();
                 this._valueY2 = this._valueY - GetHeight();
             }
-            else if (GetValueX2() < GetValueX() && GetValueY2() > GetValueY())
+
+            if (GetValueX2() < GetValueX() && GetValueY2() > GetValueY())
             {
                 this._valueX = pointX;
                 this._valueY = pointY;

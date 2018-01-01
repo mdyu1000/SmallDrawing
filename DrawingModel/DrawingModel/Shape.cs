@@ -19,8 +19,11 @@ namespace DrawingModel
         protected double _width;
         protected double _height;
         protected bool _isSelected;
-        protected double _originalValueX;
-        protected double _originalValueY;
+        protected List<double> _originalValueX = new List<double>();
+        protected List<double> _originalValueY = new List<double>();
+        protected List<double> _ReserveOriginalValueX = new List<double>();
+        protected List<double> _ReserveOriginalValueY = new List<double>();
+
         protected double _movePointX;
         protected double _movePointY;
 
@@ -72,10 +75,11 @@ namespace DrawingModel
         //SaveValue
         public void SaveValue()
         {
-            this._originalValueX = this._valueX;
-            this._originalValueY = this._valueY;
+            this._originalValueX.Add(this._valueX);
+            this._originalValueY.Add(this._valueY);
         }
 
+        //SaveDynamicValue
         public void SaveDynamicValue(double pointX, double pointY)
         {
             this._movePointX = pointX;
@@ -164,14 +168,36 @@ namespace DrawingModel
         //_originalValueX
         public double GetOriginalValueX()
         {
-            return this._originalValueX;
+            return this._originalValueX.Last();
         }
 
         //_originalValueY
         public double GetOriginalValueY()
         {
-            return this._originalValueY;
+            return this._originalValueY.Last();
         }
+
+        //UndoMoveShape
+        public void UndoMoveShape()
+        {
+            _ReserveOriginalValueX.Add(this._originalValueX.Last());
+            _ReserveOriginalValueY.Add(this._originalValueY.Last());
+            this._originalValueX.RemoveAt(this._originalValueX.Count - 1);
+            this._originalValueY.RemoveAt(this._originalValueY.Count - 1);
+        }
+
+        //RedoMoveShape
+        public void RedoMoveShape()
+        {
+            if (this._ReserveOriginalValueX.Count != 0)
+            {
+                _originalValueX.Add(this._ReserveOriginalValueX.Last());
+                _originalValueY.Add(this._ReserveOriginalValueY.Last());
+                this._ReserveOriginalValueX.RemoveAt(this._ReserveOriginalValueX.Count - 1);
+                this._ReserveOriginalValueY.RemoveAt(this._ReserveOriginalValueY.Count - 1);
+            }
+        }
+
 
         //_movePointX
         public double GetMovePointX()
@@ -184,5 +210,6 @@ namespace DrawingModel
         {
             return this._movePointY;
         }
+
     }
 }

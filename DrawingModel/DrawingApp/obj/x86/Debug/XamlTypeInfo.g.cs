@@ -13,17 +13,18 @@ namespace DrawingApp
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-    private global::DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        private global::DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider _provider;
 
         /// <summary>
         /// GetXamlType(Type)
         /// </summary>
         public global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(global::System.Type type)
         {
-            if(_provider == null)
+            if (_provider == null)
             {
                 _provider = new global::DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider();
             }
+
             return _provider.GetXamlTypeByType(type);
         }
 
@@ -32,10 +33,11 @@ namespace DrawingApp
         /// </summary>
         public global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(string fullName)
         {
-            if(_provider == null)
+            if (_provider == null)
             {
                 _provider = new global::DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider();
             }
+
             return _provider.GetXamlTypeByName(fullName);
         }
 
@@ -51,132 +53,162 @@ namespace DrawingApp
 
 namespace DrawingApp.DrawingApp_XamlTypeInfo
 {
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", " 14.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlTypeInfoProvider
     {
+        //GetXamlTypeByType
         public global::Windows.UI.Xaml.Markup.IXamlType GetXamlTypeByType(global::System.Type type)
         {
             global::Windows.UI.Xaml.Markup.IXamlType xamlType;
+
             if (_xamlTypeCacheByType.TryGetValue(type, out xamlType))
             {
                 return xamlType;
             }
+
             int typeIndex = LookupTypeIndexByType(type);
-            if(typeIndex != -1)
+
+            if (typeIndex != -1)
             {
                 xamlType = CreateXamlType(typeIndex);
             }
+
             if (xamlType != null)
             {
                 _xamlTypeCacheByName.Add(xamlType.FullName, xamlType);
                 _xamlTypeCacheByType.Add(xamlType.UnderlyingType, xamlType);
             }
+
             return xamlType;
         }
 
+        //GetXamlTypeByName
         public global::Windows.UI.Xaml.Markup.IXamlType GetXamlTypeByName(string typeName)
         {
             if (string.IsNullOrEmpty(typeName))
             {
                 return null;
             }
+
             global::Windows.UI.Xaml.Markup.IXamlType xamlType;
+
             if (_xamlTypeCacheByName.TryGetValue(typeName, out xamlType))
             {
                 return xamlType;
             }
+
             int typeIndex = LookupTypeIndexByName(typeName);
-            if(typeIndex != -1)
+
+            if (typeIndex != -1)
             {
                 xamlType = CreateXamlType(typeIndex);
             }
+
             if (xamlType != null)
             {
                 _xamlTypeCacheByName.Add(xamlType.FullName, xamlType);
                 _xamlTypeCacheByType.Add(xamlType.UnderlyingType, xamlType);
             }
+
             return xamlType;
         }
 
+        //GetMemberByLongName
         public global::Windows.UI.Xaml.Markup.IXamlMember GetMemberByLongName(string longMemberName)
         {
             if (string.IsNullOrEmpty(longMemberName))
             {
                 return null;
             }
+
             global::Windows.UI.Xaml.Markup.IXamlMember xamlMember;
+
             if (_xamlMembers.TryGetValue(longMemberName, out xamlMember))
             {
                 return xamlMember;
             }
+
             xamlMember = CreateXamlMember(longMemberName);
+
             if (xamlMember != null)
             {
                 _xamlMembers.Add(longMemberName, xamlMember);
             }
+
             return xamlMember;
         }
 
         global::System.Collections.Generic.Dictionary<string, global::Windows.UI.Xaml.Markup.IXamlType>
-                _xamlTypeCacheByName = new global::System.Collections.Generic.Dictionary<string, global::Windows.UI.Xaml.Markup.IXamlType>();
+        _xamlTypeCacheByName = new global::System.Collections.Generic.Dictionary<string, global::Windows.UI.Xaml.Markup.IXamlType>();
 
         global::System.Collections.Generic.Dictionary<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>
-                _xamlTypeCacheByType = new global::System.Collections.Generic.Dictionary<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>();
+        _xamlTypeCacheByType = new global::System.Collections.Generic.Dictionary<global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType>();
 
         global::System.Collections.Generic.Dictionary<string, global::Windows.UI.Xaml.Markup.IXamlMember>
-                _xamlMembers = new global::System.Collections.Generic.Dictionary<string, global::Windows.UI.Xaml.Markup.IXamlMember>();
+        _xamlMembers = new global::System.Collections.Generic.Dictionary<string, global::Windows.UI.Xaml.Markup.IXamlMember>();
 
         string[] _typeNameTable = null;
         global::System.Type[] _typeTable = null;
 
+        //InitTypeTables
         private void InitTypeTables()
         {
             _typeNameTable = new string[3];
             _typeNameTable[0] = "DrawingApp.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-
             _typeTable = new global::System.Type[3];
             _typeTable[0] = typeof(global::DrawingApp.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
         }
 
+        //LookupTypeIndexByName
         private int LookupTypeIndexByName(string typeName)
         {
             if (_typeNameTable == null)
             {
                 InitTypeTables();
             }
-            for (int i=0; i<_typeNameTable.Length; i++)
+
+            for (int i = 0; i < _typeNameTable.Length; i++)
             {
-                if(0 == string.CompareOrdinal(_typeNameTable[i], typeName))
+                if (0 == string.CompareOrdinal(_typeNameTable[i], typeName))
                 {
                     return i;
                 }
             }
+
             return -1;
         }
 
+        //LookupTypeIndexByType
         private int LookupTypeIndexByType(global::System.Type type)
         {
             if (_typeTable == null)
             {
                 InitTypeTables();
             }
-            for(int i=0; i<_typeTable.Length; i++)
+
+            for (int i = 0; i < _typeTable.Length; i++)
             {
-                if(type == _typeTable[i])
+                if (type == _typeTable[i])
                 {
                     return i;
                 }
             }
+
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::DrawingApp.MainPage(); }
+        //Activate_0_MainPage
+        private object Activate_0_MainPage()
+        {
+            return new global::DrawingApp.MainPage();
+        }
 
+        //CreateXamlType
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
             global::DrawingApp.DrawingApp_XamlTypeInfo.XamlSystemBaseType xamlType = null;
@@ -186,27 +218,26 @@ namespace DrawingApp.DrawingApp_XamlTypeInfo
 
             switch (typeIndex)
             {
+                case 0:   //  DrawingApp.MainPage
+                    userType = new global::DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                    userType.Activator = Activate_0_MainPage;
+                    userType.SetIsLocalType();
+                    xamlType = userType;
+                    break;
 
-            case 0:   //  DrawingApp.MainPage
-                userType = new global::DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
+                case 1:   //  Windows.UI.Xaml.Controls.Page
+                    xamlType = new global::DrawingApp.DrawingApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                    break;
 
-            case 1:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::DrawingApp.DrawingApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 2:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::DrawingApp.DrawingApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
+                case 2:   //  Windows.UI.Xaml.Controls.UserControl
+                    xamlType = new global::DrawingApp.DrawingApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                    break;
             }
+
             return xamlType;
         }
 
-
-
+        //CreateXamlMember
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::DrawingApp.DrawingApp_XamlTypeInfo.XamlMember xamlMember = null;
@@ -215,21 +246,30 @@ namespace DrawingApp.DrawingApp_XamlTypeInfo
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", " 14.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlSystemBaseType : global::Windows.UI.Xaml.Markup.IXamlType
     {
         string _fullName;
         global::System.Type _underlyingType;
 
+        //XamlSystemBaseType
         public XamlSystemBaseType(string fullName, global::System.Type underlyingType)
         {
             _fullName = fullName;
             _underlyingType = underlyingType;
         }
 
-        public string FullName { get { return _fullName; } }
+        //FullName
+        public string FullName
+        {
+            get
+            {
+                return _fullName;
+            }
+        }
 
+        //UnderlyingType
         public global::System.Type UnderlyingType
         {
             get
@@ -238,31 +278,156 @@ namespace DrawingApp.DrawingApp_XamlTypeInfo
             }
         }
 
-        virtual public global::Windows.UI.Xaml.Markup.IXamlType BaseType { get { throw new global::System.NotImplementedException(); } }
-        virtual public global::Windows.UI.Xaml.Markup.IXamlMember ContentProperty { get { throw new global::System.NotImplementedException(); } }
-        virtual public global::Windows.UI.Xaml.Markup.IXamlMember GetMember(string name) { throw new global::System.NotImplementedException(); }
-        virtual public bool IsArray { get { throw new global::System.NotImplementedException(); } }
-        virtual public bool IsCollection { get { throw new global::System.NotImplementedException(); } }
-        virtual public bool IsConstructible { get { throw new global::System.NotImplementedException(); } }
-        virtual public bool IsDictionary { get { throw new global::System.NotImplementedException(); } }
-        virtual public bool IsMarkupExtension { get { throw new global::System.NotImplementedException(); } }
-        virtual public bool IsBindable { get { throw new global::System.NotImplementedException(); } }
-        virtual public bool IsReturnTypeStub { get { throw new global::System.NotImplementedException(); } }
-        virtual public bool IsLocalType { get { throw new global::System.NotImplementedException(); } }
-        virtual public global::Windows.UI.Xaml.Markup.IXamlType ItemType { get { throw new global::System.NotImplementedException(); } }
-        virtual public global::Windows.UI.Xaml.Markup.IXamlType KeyType { get { throw new global::System.NotImplementedException(); } }
-        virtual public object ActivateInstance() { throw new global::System.NotImplementedException(); }
-        virtual public void AddToMap(object instance, object key, object item)  { throw new global::System.NotImplementedException(); }
-        virtual public void AddToVector(object instance, object item)  { throw new global::System.NotImplementedException(); }
-        virtual public void RunInitializer()   { throw new global::System.NotImplementedException(); }
-        virtual public object CreateFromString(string input)   { throw new global::System.NotImplementedException(); }
+        //BaseType
+        virtual public global::Windows.UI.Xaml.Markup.IXamlType BaseType
+        {
+            get
+            {
+                throw new global::System.NotImplementedException();
+            }
+        }
+
+        //ContentProperty
+        virtual public global::Windows.UI.Xaml.Markup.IXamlMember ContentProperty
+        {
+            get
+            {
+                throw new global::System.NotImplementedException();
+            }
+        }
+
+        //GetMember
+        virtual public global::Windows.UI.Xaml.Markup.IXamlMember GetMember(string name)
+        {
+            throw new global::System.NotImplementedException();
+        }
+
+        //IsArray
+        virtual public bool IsArray
+        {
+            get
+            {
+                throw new global::System.NotImplementedException();
+            }
+        }
+
+        //IsCollection
+        virtual public bool IsCollection
+        {
+            get
+            {
+                throw new global::System.NotImplementedException();
+            }
+        }
+
+        //IsConstructible
+        virtual public bool IsConstructible
+        {
+            get
+            {
+                throw new global::System.NotImplementedException();
+            }
+        }
+
+        //IsDictionary
+        virtual public bool IsDictionary
+        {
+            get
+            {
+                throw new global::System.NotImplementedException();
+            }
+        }
+
+        //IsMarkupExtension
+        virtual public bool IsMarkupExtension
+        {
+            get
+            {
+                throw new global::System.NotImplementedException();
+            }
+        }
+
+        //IsBindable
+        virtual public bool IsBindable
+        {
+            get
+            {
+                throw new global::System.NotImplementedException();
+            }
+        }
+
+        //IsReturnTypeStub
+        virtual public bool IsReturnTypeStub
+        {
+            get
+            {
+                throw new global::System.NotImplementedException();
+            }
+        }
+
+        //IsLocalType
+        virtual public bool IsLocalType
+        {
+            get
+            {
+                throw new global::System.NotImplementedException();
+            }
+        }
+
+        //ItemType
+        virtual public global::Windows.UI.Xaml.Markup.IXamlType ItemType
+        {
+            get
+            {
+                throw new global::System.NotImplementedException();
+            }
+        }
+
+        //KeyType
+        virtual public global::Windows.UI.Xaml.Markup.IXamlType KeyType
+        {
+            get
+            {
+                throw new global::System.NotImplementedException();
+            }
+        }
+
+        //ActivateInstance
+        virtual public object ActivateInstance()
+        {
+            throw new global::System.NotImplementedException();
+        }
+
+        //AddToMap
+        virtual public void AddToMap(object instance, object key, object item)
+        {
+            throw new global::System.NotImplementedException();
+        }
+
+        //AddToVector
+        virtual public void AddToVector(object instance, object item)
+        {
+            throw new global::System.NotImplementedException();
+        }
+
+        //RunInitializer
+        virtual public void RunInitializer()
+        {
+            throw new global::System.NotImplementedException();
+        }
+
+        //CreateFromString
+        virtual public object CreateFromString(string input)
+        {
+            throw new global::System.NotImplementedException();
+        }
     }
-    
+
     internal delegate object Activator();
     internal delegate void AddToCollection(object instance, object item);
     internal delegate void AddToDictionary(object instance, object key, object item);
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", " 14.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlUserType : global::DrawingApp.DrawingApp_XamlTypeInfo.XamlSystemBaseType
     {
@@ -281,7 +446,7 @@ namespace DrawingApp.DrawingApp_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
         public XamlUserType(global::DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
-            :base(fullName, fullType)
+        : base(fullName, fullType)
         {
             _provider = provider;
             _baseType = baseType;
@@ -289,77 +454,168 @@ namespace DrawingApp.DrawingApp_XamlTypeInfo
 
         // --- Interface methods ----
 
-        override public global::Windows.UI.Xaml.Markup.IXamlType BaseType { get { return _baseType; } }
-        override public bool IsArray { get { return _isArray; } }
-        override public bool IsCollection { get { return (CollectionAdd != null); } }
-        override public bool IsConstructible { get { return (Activator != null); } }
-        override public bool IsDictionary { get { return (DictionaryAdd != null); } }
-        override public bool IsMarkupExtension { get { return _isMarkupExtension; } }
-        override public bool IsBindable { get { return _isBindable; } }
-        override public bool IsReturnTypeStub { get { return _isReturnTypeStub; } }
-        override public bool IsLocalType { get { return _isLocalType; } }
+        override public global::Windows.UI.Xaml.Markup.IXamlType BaseType
+        {
+            get
+            {
+                return _baseType;
+            }
+        }
 
+        //IsArray
+        override public bool IsArray
+        {
+            get
+            {
+                return _isArray;
+            }
+        }
+
+        //IsCollection
+        override public bool IsCollection
+        {
+            get
+            {
+                return (CollectionAdd != null);
+            }
+        }
+
+        //IsConstructible
+        override public bool IsConstructible
+        {
+            get
+            {
+                return (Activator != null);
+            }
+        }
+
+        //IsDictionary
+        override public bool IsDictionary
+        {
+            get
+            {
+                return (DictionaryAdd != null);
+            }
+        }
+
+        //IsMarkupExtension
+        override public bool IsMarkupExtension
+        {
+            get
+            {
+                return _isMarkupExtension;
+            }
+        }
+
+        //IsBindable
+        override public bool IsBindable
+        {
+            get
+            {
+                return _isBindable;
+            }
+        }
+
+        //IsReturnTypeStub
+        override public bool IsReturnTypeStub
+        {
+            get
+            {
+                return _isReturnTypeStub;
+            }
+        }
+
+        //IsLocalType
+        override public bool IsLocalType
+        {
+            get
+            {
+                return _isLocalType;
+            }
+        }
+
+        //ContentProperty
         override public global::Windows.UI.Xaml.Markup.IXamlMember ContentProperty
         {
-            get { return _provider.GetMemberByLongName(_contentPropertyName); }
+            get
+            {
+                return _provider.GetMemberByLongName(_contentPropertyName);
+            }
         }
 
+        //ItemType
         override public global::Windows.UI.Xaml.Markup.IXamlType ItemType
         {
-            get { return _provider.GetXamlTypeByName(_itemTypeName); }
+            get
+            {
+                return _provider.GetXamlTypeByName(_itemTypeName);
+            }
         }
 
+        //KeyType
         override public global::Windows.UI.Xaml.Markup.IXamlType KeyType
         {
-            get { return _provider.GetXamlTypeByName(_keyTypeName); }
+            get
+            {
+                return _provider.GetXamlTypeByName(_keyTypeName);
+            }
         }
 
+        //GetMember
         override public global::Windows.UI.Xaml.Markup.IXamlMember GetMember(string name)
         {
             if (_memberNames == null)
             {
                 return null;
             }
+
             string longName;
+
             if (_memberNames.TryGetValue(name, out longName))
             {
                 return _provider.GetMemberByLongName(longName);
             }
+
             return null;
         }
 
+        //ActivateInstance
         override public object ActivateInstance()
         {
-            return Activator(); 
+            return Activator();
         }
 
-        override public void AddToMap(object instance, object key, object item) 
+        //AddToMap
+        override public void AddToMap(object instance, object key, object item)
         {
             DictionaryAdd(instance, key, item);
         }
 
+        //AddToVector
         override public void AddToVector(object instance, object item)
         {
             CollectionAdd(instance, item);
         }
 
-        override public void RunInitializer() 
+        //RunInitializer
+        override public void RunInitializer()
         {
             System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(UnderlyingType.TypeHandle);
         }
 
+        //CreateFromString
         override public object CreateFromString(string input)
         {
             if (_enumValues != null)
             {
                 int value = 0;
-
                 string[] valueParts = input.Split(',');
 
-                foreach (string valuePart in valueParts) 
+                foreach (string valuePart in valueParts)
                 {
                     object partValue;
                     int enumFieldValue = 0;
+
                     try
                     {
                         if (_enumValues.TryGetValue(valuePart.Trim(), out partValue))
@@ -372,13 +628,13 @@ namespace DrawingApp.DrawingApp_XamlTypeInfo
                             {
                                 enumFieldValue = global::System.Convert.ToInt32(valuePart.Trim());
                             }
-                            catch( global::System.FormatException )
+                            catch ( global::System.FormatException )
                             {
-                                foreach( string key in _enumValues.Keys )
+                                foreach ( string key in _enumValues.Keys )
                                 {
-                                    if( string.Compare(valuePart.Trim(), key, global::System.StringComparison.OrdinalIgnoreCase) == 0 )
+                                    if ( string.Compare(valuePart.Trim(), key, global::System.StringComparison.OrdinalIgnoreCase) == 0 )
                                     {
-                                        if( _enumValues.TryGetValue(key.Trim(), out partValue) )
+                                        if ( _enumValues.TryGetValue(key.Trim(), out partValue) )
                                         {
                                             enumFieldValue = global::System.Convert.ToInt32(partValue);
                                             break;
@@ -387,80 +643,106 @@ namespace DrawingApp.DrawingApp_XamlTypeInfo
                                 }
                             }
                         }
-                        value |= enumFieldValue; 
+
+                        value |= enumFieldValue;
                     }
-                    catch( global::System.FormatException )
+                    catch ( global::System.FormatException )
                     {
                         throw new global::System.ArgumentException(input, FullName);
                     }
                 }
 
-                return value; 
+                return value;
             }
+
             throw new global::System.ArgumentException(input, FullName);
         }
 
         // --- End of Interface methods
 
-        public Activator Activator { get; set; }
-        public AddToCollection CollectionAdd { get; set; }
-        public AddToDictionary DictionaryAdd { get; set; }
+        public Activator Activator
+        {
+            get;
+            set;
+        }
+        public AddToCollection CollectionAdd
+        {
+            get;
+            set;
+        }
+        public AddToDictionary DictionaryAdd
+        {
+            get;
+            set;
+        }
 
+        //SetContentPropertyName
         public void SetContentPropertyName(string contentPropertyName)
         {
             _contentPropertyName = contentPropertyName;
         }
 
+        //SetIsArray
         public void SetIsArray()
         {
-            _isArray = true; 
+            _isArray = true;
         }
 
+        //SetIsMarkupExtension
         public void SetIsMarkupExtension()
         {
             _isMarkupExtension = true;
         }
 
+        //SetIsBindable
         public void SetIsBindable()
         {
             _isBindable = true;
         }
 
+        //SetIsReturnTypeStub
         public void SetIsReturnTypeStub()
         {
             _isReturnTypeStub = true;
         }
 
+        //SetIsLocalType
         public void SetIsLocalType()
         {
             _isLocalType = true;
         }
 
+        //SetItemTypeName
         public void SetItemTypeName(string itemTypeName)
         {
             _itemTypeName = itemTypeName;
         }
 
+        //SetKeyTypeName
         public void SetKeyTypeName(string keyTypeName)
         {
             _keyTypeName = keyTypeName;
         }
 
+        //AddMemberName
         public void AddMemberName(string shortName)
         {
-            if(_memberNames == null)
+            if (_memberNames == null)
             {
-                _memberNames =  new global::System.Collections.Generic.Dictionary<string,string>();
+                _memberNames =  new global::System.Collections.Generic.Dictionary<string, string>();
             }
+
             _memberNames.Add(shortName, FullName + "." + shortName);
         }
 
+        //AddEnumValue
         public void AddEnumValue(string name, object value)
         {
             if (_enumValues == null)
             {
                 _enumValues = new global::System.Collections.Generic.Dictionary<string, object>();
             }
+
             _enumValues.Add(name, value);
         }
     }
@@ -468,7 +750,7 @@ namespace DrawingApp.DrawingApp_XamlTypeInfo
     internal delegate object Getter(object instance);
     internal delegate void Setter(object instance, object value);
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", " 14.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Windows.UI.Xaml.Markup.IXamlMember
     {
@@ -488,32 +770,89 @@ namespace DrawingApp.DrawingApp_XamlTypeInfo
             _provider = provider;
         }
 
-        public string Name { get { return _name; } }
-
-        public global::Windows.UI.Xaml.Markup.IXamlType Type
+        //Name
+        public string Name
         {
-            get { return _provider.GetXamlTypeByName(_typeName); }
+            get
+            {
+                return _name;
+            }
         }
 
+        //Type
+        public global::Windows.UI.Xaml.Markup.IXamlType Type
+        {
+            get
+            {
+                return _provider.GetXamlTypeByName(_typeName);
+            }
+        }
+
+        //SetTargetTypeName
         public void SetTargetTypeName(string targetTypeName)
         {
             _targetTypeName = targetTypeName;
         }
         public global::Windows.UI.Xaml.Markup.IXamlType TargetType
         {
-            get { return _provider.GetXamlTypeByName(_targetTypeName); }
+            get
+            {
+                return _provider.GetXamlTypeByName(_targetTypeName);
+            }
         }
 
-        public void SetIsAttachable() { _isAttachable = true; }
-        public bool IsAttachable { get { return _isAttachable; } }
+        //SetIsAttachable
+        public void SetIsAttachable()
+        {
+            _isAttachable = true;
+        }
 
-        public void SetIsDependencyProperty() { _isDependencyProperty = true; }
-        public bool IsDependencyProperty { get { return _isDependencyProperty; } }
+        //IsAttachable
+        public bool IsAttachable
+        {
+            get
+            {
+                return _isAttachable;
+            }
+        }
 
-        public void SetIsReadOnly() { _isReadOnly = true; }
-        public bool IsReadOnly { get { return _isReadOnly; } }
+        //SetIsDependencyProperty
+        public void SetIsDependencyProperty()
+        {
+            _isDependencyProperty = true;
+        }
 
-        public Getter Getter { get; set; }
+        //IsDependencyProperty
+        public bool IsDependencyProperty
+        {
+            get
+            {
+                return _isDependencyProperty;
+            }
+        }
+
+        //SetIsReadOnly
+        public void SetIsReadOnly()
+        {
+            _isReadOnly = true;
+        }
+
+        //IsReadOnly
+        public bool IsReadOnly
+        {
+            get
+            {
+                return _isReadOnly;
+            }
+        }
+
+        public Getter Getter
+        {
+            get;
+            set;
+        }
+
+        //GetValue
         public object GetValue(object instance)
         {
             if (Getter != null)
@@ -522,7 +861,13 @@ namespace DrawingApp.DrawingApp_XamlTypeInfo
                 throw new global::System.InvalidOperationException("GetValue");
         }
 
-        public Setter Setter { get; set; }
+        public Setter Setter
+        {
+            get;
+            set;
+        }
+
+        //SetValue
         public void SetValue(object instance, object value)
         {
             if (Setter != null)

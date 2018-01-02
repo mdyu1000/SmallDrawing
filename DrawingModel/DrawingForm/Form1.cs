@@ -62,7 +62,7 @@ namespace DrawingForm
         //HandleClearButtonClick
         public void HandleClearButtonClick(object sender, EventArgs e)
         {
-            _model.Clear();
+            _model.ClearCommand();
             RefreshState();
         }
 

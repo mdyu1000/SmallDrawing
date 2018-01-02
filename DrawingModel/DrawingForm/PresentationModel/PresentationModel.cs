@@ -108,7 +108,7 @@ namespace DrawingForm.PresentationModel
             _model.Undo();
         }
 
-        //ClickButtonUndo
+        //ClickButtonDelete
         public void ClickButtonDelete()
         {
             _model.DeleteCommand();
@@ -162,7 +162,7 @@ namespace DrawingForm.PresentationModel
             return _model.IsUndoEnabled;
         }
 
-        //Button Undo State
+        //Button Delete State
         public bool IsButtonDeleteEnabled()
         {
             return _isButtonClearEnabled;

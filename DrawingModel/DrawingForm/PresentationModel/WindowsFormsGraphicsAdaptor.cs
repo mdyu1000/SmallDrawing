@@ -5,7 +5,8 @@ namespace DrawingForm.PresentationModel
     class WindowsFormsGraphicsAdaptor : IGraphics
     {
         Graphics _graphics;
-        Pen _redPen = new Pen(Color.Red, 5);
+        private const int PEN_THICK = 5;
+        Pen _redPen = new Pen(Color.Red, PEN_THICK);
 
         //WindowsFormsGraphicsAdaptor
         public WindowsFormsGraphicsAdaptor(Graphics graphics)
@@ -42,7 +43,7 @@ namespace DrawingForm.PresentationModel
         //DrawArrow
         public void DrawArrow(double x1, double y1, double x2, double y2)
         {
-            Pen pen = new Pen(Color.Blue, 5);
+            Pen pen = new Pen(Color.Blue, PEN_THICK);
             _graphics.DrawLine(pen, (float)x1, (float)y1, (float)x2, (float)y2);
         }
 

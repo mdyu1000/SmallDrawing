@@ -21,11 +21,15 @@ namespace DrawingModel
         protected bool _isSelected;
         protected List<double> _originalValueX = new List<double>();
         protected List<double> _originalValueY = new List<double>();
-        protected List<double> _ReserveOriginalValueX = new List<double>();
-        protected List<double> _ReserveOriginalValueY = new List<double>();
-
+        protected List<double> _reserveOriginalValueX = new List<double>();
+        protected List<double> _reserveOriginalValueY = new List<double>();
         protected double _movePointX;
         protected double _movePointY;
+        private const int FLAG_LINE = 1;
+        private const int FLAG_RECTANGLE = 2;
+        private const int FLAG_ELLIPSE = 3;
+        private const int FLAG_ARROW = 4;
+        private const int LENGTH = 15;
 
         //Draw
         public virtual void Draw(IGraphics graphics)
@@ -46,7 +50,7 @@ namespace DrawingModel
         //SetSelected
         public void SetSelected(double pointX, double pointY)
         {
-            if (GetShapeFlag() == 1 || GetShapeFlag() == 4)
+            if (GetShapeFlag() == FLAG_LINE || GetShapeFlag() == FLAG_ARROW)
             {
                 if (_valueX2 > _valueX && _valueY2 > _valueY && pointX > this._valueX && pointX < this._valueX2 && pointY > this._valueY && pointY < this._valueY2)
                     this._isSelected = true;
@@ -59,7 +63,7 @@ namespace DrawingModel
                 else
                     this._isSelected = false;
             }
-            else if ((GetShapeFlag() == 2 || GetShapeFlag() == 3) && pointX > this._valueX && pointX < this._valueX + _width && pointY > this._valueY && pointY < this._valueY + _width)
+            else if ((GetShapeFlag() == FLAG_RECTANGLE || GetShapeFlag() == FLAG_ELLIPSE) && pointX > this._valueX && pointX < this._valueX + _width && pointY > this._valueY && pointY < this._valueY + _width)
                 this._isSelected = true;
             else
                 this._isSelected = false;
@@ -116,7 +120,7 @@ namespace DrawingModel
         //SetLineSide
         public void SetLineSide()
         {
-            if (GetShapeFlag() == 1 || GetShapeFlag() == 4)
+            if (GetShapeFlag() == FLAG_LINE || GetShapeFlag() == FLAG_ARROW)
             {
                 this._width = Math.Abs(this._valueX2 - this._valueX);
                 this._height = Math.Abs(this._valueY2 - this._valueY);
@@ -126,13 +130,13 @@ namespace DrawingModel
         //SetValueThree
         public void SetValueThree()
         {
-            double _theta = Math.Atan2(GetValueY2() - GetValueY(), GetValueX2() - GetValueX());
-            double _sin = Math.Sin(_theta);
-            double _cos = Math.Cos(_theta);
-            this._valueX3 = GetValueX2() - (15 * _cos - 15 * _sin);
-            this._valueY3 = GetValueY2() - (15 * _sin + 15 * _cos);
-            this._valueX4 = GetValueX2() - (15 * _cos + 15 * _sin);
-            this._valueY4 = GetValueY2() + (15 * _cos - 15 * _sin);
+            double angle = Math.Atan2(GetValueY2() - GetValueY(), GetValueX2() - GetValueX());
+            double sine = Math.Sin(angle);
+            double cosine = Math.Cos(angle);
+            this._valueX3 = GetValueX2() - (LENGTH * cosine - LENGTH * sine);
+            this._valueY3 = GetValueY2() - (LENGTH * sine + LENGTH * cosine);
+            this._valueX4 = GetValueX2() - (LENGTH * cosine + LENGTH * sine);
+            this._valueY4 = GetValueY2() + (LENGTH * cosine - LENGTH * sine);
         }
 
         //GetValueX
@@ -160,7 +164,7 @@ namespace DrawingModel
         }
 
         //SetCancleSelected
-        public void SetCancleSelected()
+        public void SetCancelSelected()
         {
             this._isSelected = false;
         }
@@ -180,8 +184,8 @@ namespace DrawingModel
         //UndoMoveShape
         public void UndoMoveShape()
         {
-            _ReserveOriginalValueX.Add(this._originalValueX.Last());
-            _ReserveOriginalValueY.Add(this._originalValueY.Last());
+            _reserveOriginalValueX.Add(this._originalValueX.Last());
+            _reserveOriginalValueY.Add(this._originalValueY.Last());
             this._originalValueX.RemoveAt(this._originalValueX.Count - 1);
             this._originalValueY.RemoveAt(this._originalValueY.Count - 1);
         }
@@ -189,15 +193,14 @@ namespace DrawingModel
         //RedoMoveShape
         public void RedoMoveShape()
         {
-            if (this._ReserveOriginalValueX.Count != 0)
+            if (this._reserveOriginalValueX.Count != 0)
             {
-                _originalValueX.Add(this._ReserveOriginalValueX.Last());
-                _originalValueY.Add(this._ReserveOriginalValueY.Last());
-                this._ReserveOriginalValueX.RemoveAt(this._ReserveOriginalValueX.Count - 1);
-                this._ReserveOriginalValueY.RemoveAt(this._ReserveOriginalValueY.Count - 1);
+                _originalValueX.Add(this._reserveOriginalValueX.Last());
+                _originalValueY.Add(this._reserveOriginalValueY.Last());
+                this._reserveOriginalValueX.RemoveAt(this._reserveOriginalValueX.Count - 1);
+                this._reserveOriginalValueY.RemoveAt(this._reserveOriginalValueY.Count - 1);
             }
         }
-
 
         //_movePointX
         public double GetMovePointX()

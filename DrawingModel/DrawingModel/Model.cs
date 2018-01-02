@@ -1,30 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace DrawingModel
 {
-    public class Model
+    public partial class Model
     {
         public event ModelChangedEventHandler _modelChanged;
         public delegate void ModelChangedEventHandler();
-        double _firstPointX;
-        double _firstPointY;
-        bool _isPressed = false;
-        Line _hint = new Line();
-        Rectangle _hintRectangle = new Rectangle();
-        Ellipse _hintEllipse = new Ellipse();
-        Arrow _hintArrow = new Arrow();
-        bool _isButtonLinePressed;
-        bool _isButtonRectanglePressed;
-        bool _isButtonEllipsePressed;
-        bool _isButtonArrowPressed;
-        List<Shape> _shape = new List<Shape>();
+        private double _firstPointX;
+        private double _firstPointY;
+        private bool _isPressed = false;
+        private Line _hint = new Line();
+        private Rectangle _hintRectangle = new Rectangle();
+        private Ellipse _hintEllipse = new Ellipse();
+        private Arrow _hintArrow = new Arrow();
+        private bool _isButtonLinePressed;
+        private bool _isButtonRectanglePressed;
+        private bool _isButtonEllipsePressed;
+        private bool _isButtonArrowPressed;
+        private List<Shape> _shape = new List<Shape>();
+        private List<Shape> _reserveShape = new List<Shape>();
         private CommandManager _commandManager = new CommandManager();
-        private const int UNSELECTED = -1;
-        private const int UNMOVED = -1;
-
-        Rectangle _rectangleSelected = new Rectangle();
-        //public Rectangle HintRect => _rectangleSelected;
+        private const int NO_SELECT = -1;
 
         //PointerPressed
         public void PressPointer(double valueX, double valueY, bool[] isButtonPressed)
@@ -64,30 +62,6 @@ namespace DrawingModel
                 PressPointerArrow();
         }
 
-        //PointerPressed Line
-        public void PressPointerLine()
-        {
-            _hint.SetValue(_firstPointX, _firstPointY);
-        }
-
-        //PointerPressed Rectangle
-        public void PressPointerRectangle()
-        {
-            _hintRectangle.SetValue(_firstPointX, _firstPointY);
-        }
-
-        //PointerPressed Ellipse
-        public void PressPointerEllipse()
-        {
-            _hintEllipse.SetValue(_firstPointX, _firstPointY);
-        }
-
-        //PointerPressed Arrow
-        public void PressPointerArrow()
-        {
-            _hintArrow.SetValue(_firstPointX, _firstPointY);
-        }
-
         //PointerMoved
         public void MovePointer(double valueX, double valueY)
         {
@@ -102,38 +76,11 @@ namespace DrawingModel
                 else if (_isButtonArrowPressed)
                     MovePointerArrow(valueX, valueY);
 
-                if (this.DetectSelectedIndex() != UNSELECTED)
+                if (this.DetectSelectedIndex() != NO_SELECT)
                     this._shape[DetectSelectedIndex()].MoveSelected(valueX, valueY);
 
                 NotifyModelChanged();
             }
-        }
-
-        //PointerMoved Line
-        public void MovePointerLine(double valueX, double valueY)
-        {
-            _hint.SetValueTwo(valueX, valueY);
-        }
-
-        //PointerMoved Rectangle
-        public void MovePointerRectangle(double valueX, double valueY)
-        {
-            _hintRectangle.SetValueSide(Math.Abs(valueX - _hintRectangle.GetValueX()), Math.Abs(valueY - _hintRectangle.GetValueY()));
-            _hintRectangle.SetValue((valueX < _hintRectangle.GetValueX()) ? valueX : _firstPointX, (valueY < _hintRectangle.GetValueY()) ? valueY : _firstPointY);
-        }
-
-        //PointerMoved Ellipse
-        public void MovePointerEllipse(double valueX, double valueY)
-        {
-            _hintEllipse.SetValueSide(Math.Abs(valueX - _hintEllipse.GetValueX()), Math.Abs(valueY - _hintEllipse.GetValueY()));
-            _hintEllipse.SetValue((valueX < _hintEllipse.GetValueX()) ? valueX : _firstPointX, (valueY < _hintEllipse.GetValueY()) ? valueY : _firstPointY);
-        }
-
-        //PointerMoved Arrow
-        public void MovePointerArrow(double valueX, double valueY)
-        {
-            _hintArrow.SetValueTwo(valueX, valueY);
-            _hintArrow.SetValueThree();
         }
 
         //PointerReleased
@@ -152,13 +99,18 @@ namespace DrawingModel
                 else if (_isButtonArrowPressed)
                     ReleasePointerArrow(valueX, valueY);
 
-                if (this.DetectSelectedIndex() != UNSELECTED && IsMove())
-                {
-                    this._shape[DetectSelectedIndex()].SaveDynamicValue(valueX, valueY);
-                    _commandManager.Execute(new MoveShapeCommand(this, _shape[DetectSelectedIndex()]));
-                }
-
+                ReleasePointerTwo(valueX, valueY);
                 NotifyModelChanged();
+            }
+        }
+
+        //ReleasePointerTwo
+        public void ReleasePointerTwo(double valueX, double valueY)
+        {
+            if (this.DetectSelectedIndex() != NO_SELECT && IsMove())
+            {
+                this._shape[DetectSelectedIndex()].SaveDynamicValue(valueX, valueY);
+                _commandManager.Execute(new MoveShapeCommand(this, _shape[DetectSelectedIndex()]));
             }
         }
 
@@ -169,53 +121,6 @@ namespace DrawingModel
                 return true;
 
             return false;
-        }
-
-
-        //PointerReleased Line
-        public void ReleasePointerLine(double valueX, double valueY)
-        {
-            Line hint = new Line();
-            hint.SetValue(valueX, valueY);
-            hint.SetValueTwo(_firstPointX, _firstPointY);
-            this._commandManager.Execute(new AddShapeCommand(this, hint));
-        }
-
-        //PointerReleased Rectangle
-        public void ReleasePointerRectangle(double valueX, double valueY)
-        {
-            Rectangle rectangle = new Rectangle();
-            rectangle.SetValue((valueX < _firstPointX) ? valueX : _firstPointX, (valueY < _firstPointY) ? valueY : _firstPointY);
-            rectangle.SetValueSide(Math.Abs(valueX - _firstPointX), Math.Abs(valueY - _firstPointY));
-            _commandManager.Execute(new AddShapeCommand(this, rectangle));
-        }
-
-        //PointerReleased Rectangle
-        public void ReleasePointerEllipse(double valueX, double valueY)
-        {
-            Ellipse ellipse = new Ellipse();
-            ellipse.SetValue((valueX < _firstPointX) ? valueX : _firstPointX, (valueY < _firstPointY) ? valueY : _firstPointY);
-            ellipse.SetValueSide(Math.Abs(valueX - _firstPointX), Math.Abs(valueY - _firstPointY));
-            _commandManager.Execute(new AddShapeCommand(this, ellipse));
-        }
-
-        //PointerReleased Arrow
-        public void ReleasePointerArrow(double valueX, double valueY)
-        {
-            Arrow arrow = new Arrow();
-            arrow.SetValue(_firstPointX, _firstPointY);
-            arrow.SetValueTwo(valueX, valueY);
-            arrow.SetValueThree();
-            this._commandManager.Execute(new AddShapeCommand(this, arrow));
-        }
-
-        //Clear
-        public void Clear()
-        {
-            _isPressed = false;
-            _shape.Clear();
-            this._commandManager.ClearStack();
-            NotifyModelChanged();
         }
 
         //Draw
@@ -231,8 +136,14 @@ namespace DrawingModel
                 {
                     DisplayShape.DrawSelected(graphics);
                 }
-            }
 
+                DrawTwo(graphics);
+            }
+        }
+
+        //DrawTwo
+        public void DrawTwo(IGraphics graphics)
+        {
             if (_isPressed)
             {
                 if (_isButtonLinePressed)
@@ -265,44 +176,12 @@ namespace DrawingModel
                 _modelChanged();
         }
 
-        //Undo
-        public void Undo()
-        {
-            this._commandManager.Undo();
-            NotifyModelChanged();
-        }
-
-        //Redo
-        public void Redo()
-        {
-            this._commandManager.Redo();
-            NotifyModelChanged();
-        }
-
-        //IsRedoEnabled
-        public bool IsRedoEnabled
-        {
-            get
-            {
-                return _commandManager.IsRedoEnabled;
-            }
-        }
-
-        //IsUndoEnabled
-        public bool IsUndoEnabled
-        {
-            get
-            {
-                return _commandManager.IsUndoEnabled;
-            }
-        }
-
         //Delete
         public void DeleteCommand()
         {
             int index = 0;
 
-            if (this.DetectSelectedIndex() != UNSELECTED)
+            if (this.DetectSelectedIndex() != NO_SELECT)
                 _commandManager.Execute(new DeleteShapeCommand(this, _shape[index]));
 
             NotifyModelChanged();
@@ -311,18 +190,17 @@ namespace DrawingModel
         //DeleteSpecifyShape
         public void DeleteSpecifyShape()
         {
-            if (this.DetectSelectedIndex() != UNSELECTED)
+            if (this.DetectSelectedIndex() != NO_SELECT)
                 this._shape.RemoveAt(DetectSelectedIndex());
         }
 
         //PressSelected
         public void PressSelected(double valueX, double valueY, bool isButtonSelectPressed)
         {
+            SetCancelSelected();
+
             if (isButtonSelectPressed)
             {
-                for (int i = _shape.Count - 1; i >= 0; i--)
-                    _shape[i].SetCancleSelected();
-
                 for (int i = _shape.Count - 1; i >= 0; i--)
                 {
                     _shape[i].SetSelected(valueX, valueY); //判斷是否有點在shape內
@@ -335,8 +213,14 @@ namespace DrawingModel
                 }
             }
             else
-                for (int i = _shape.Count - 1; i >= 0; i--)
-                    _shape[i].SetCancleSelected();
+                SetCancelSelected();
+        }
+
+        //SetCancelSelected
+        public void SetCancelSelected()
+        {
+            for (int i = _shape.Count - 1; i >= 0; i--)
+                _shape[i].SetCancelSelected();
         }
 
         // Return which shape is selected?
@@ -346,7 +230,7 @@ namespace DrawingModel
                 if (_shape[i].IsSelected())
                     return i;
 
-            return UNSELECTED;
+            return NO_SELECT;
         }
     }
 }

@@ -8,7 +8,7 @@ namespace DrawingModel
 {
     public class Ellipse : Shape
     {
-
+        private const int FLAG_ELLIPSE = 3;
         //Draw
         public override void Draw(IGraphics graphics)
         {
@@ -22,11 +22,10 @@ namespace DrawingModel
                 graphics.DrawEllipseSelected(GetValueX(), GetValueY(), _width, _height);
         }
 
-
         //GetShapeFlag
         public override int GetShapeFlag()
         {
-            return 3;
+            return FLAG_ELLIPSE;
         }
     }
 }

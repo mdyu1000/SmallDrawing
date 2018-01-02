@@ -188,6 +188,134 @@
           <Reviews>
             <Smell>
               <Id>1</Id>
+              <SmellType>ICS(空白與空行-2)</SmellType>
+              <HashCode>SpacingAndNewLine2</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingModel</Project>
+              <File>GoogleDriveService.cs</File>
+              <Line>133</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>2</Id>
+              <SmellType>ICS(空白與空行-9)</SmellType>
+              <HashCode>SpacingAndNewLine9</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingModel</Project>
+              <File>GoogleDriveService.cs</File>
+              <Line>57</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>3</Id>
+              <SmellType>ICS(空白與空行-9)</SmellType>
+              <HashCode>SpacingAndNewLine9</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingModel</Project>
+              <File>GoogleDriveService.cs</File>
+              <Line>59</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>4</Id>
+              <SmellType>ICS(縮排與換行-1)</SmellType>
+              <HashCode>IndentAndNewLine1.UploadFile.            Google.Apis.Drive.v2.Data.File fileToInsert = new Google.Apis.Drive.v2.Data.File { Title = title };</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingModel</Project>
+              <File>GoogleDriveService.cs</File>
+              <Line>158</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>5</Id>
+              <SmellType>ICS(縮排與換行-3)</SmellType>
+              <HashCode>IndentAndNewLine3.UploadFile.            Google.Apis.Drive.v2.Data.File fileToInsert = new Google.Apis.Drive.v2.Data.File { Title = title };</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingModel</Project>
+              <File>GoogleDriveService.cs</File>
+              <Line>158</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>6</Id>
+              <SmellType>Literal constants(字面常數)-2</SmellType>
+              <HashCode>LiteralConstants.UploadFile.2</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingModel</Project>
+              <File>GoogleDriveService.cs</File>
+              <Line>160</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>7</Id>
+              <SmellType>Large class(過大類別)</SmellType>
+              <HashCode>LargeClass.GoogleDriveUploader.GoogleDrive.GoogleDriveService.212</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>212</Weight>
+              <Project>DrawingModel</Project>
+              <File>GoogleDriveService.cs</File>
+              <Line>19</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>8</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingModel</Project>
+              <File>GoogleDriveService.cs</File>
+              <Line>21</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>9</Id>
               <SmellType>ICS(變數-1)</SmellType>
               <HashCode>Variable1.GoogleDriveService.SCOPES</HashCode>
               <Severity>Red</Severity>
@@ -203,7 +331,39 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>2</Id>
+              <Id>10</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.GoogleDriveService.CreateNewService.23string applicationName;string clientSecretFileName;</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>23</Weight>
+              <Project>DrawingModel</Project>
+              <File>GoogleDriveService.cs</File>
+              <Line>42</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>11</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.GoogleDriveService.ListFileAndFolderWithQueryString.25string queryString;</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>25</Weight>
+              <Project>DrawingModel</Project>
+              <File>GoogleDriveService.cs</File>
+              <Line>112</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>12</Id>
               <SmellType>Unsuitable naming(名不符實)-uploadProgressEventHandeler(handeler)</SmellType>
               <HashCode>UnsuitableNaming.GoogleDriveService.UploadFile.uploadProgressEventHandeler</HashCode>
               <Severity>Red</Severity>
@@ -219,7 +379,23 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>3</Id>
+              <Id>13</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.GoogleDriveService.UploadFile.37string uploadFileName;string contentType;Action&lt;IUploadProgress&gt; uploadProgressEventHandeler;Action&lt;Google.Apis.Drive.v2.Data.File&gt; responseReceivedEventHandler;</HashCode>
+              <Severity>Red</Severity>
+              <Weight>37</Weight>
+              <Project>DrawingModel</Project>
+              <File>GoogleDriveService.cs</File>
+              <Line>146</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>14</Id>
               <SmellType>Unsuitable naming(名不符實)-downloadProgressChangedEventHandeler(handeler)</SmellType>
               <HashCode>UnsuitableNaming.GoogleDriveService.DownloadFile.downloadProgressChangedEventHandeler</HashCode>
               <Severity>Red</Severity>
@@ -235,7 +411,55 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>4</Id>
+              <Id>15</Id>
+              <SmellType>Unsuitable naming(名不符實)-sine(sine)</SmellType>
+              <HashCode>UnsuitableNaming.Shape.SetValueThree.sine</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingModel</Project>
+              <File>Shape.cs</File>
+              <Line>134</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>16</Id>
+              <SmellType>Unsuitable naming(名不符實)-cosine(cosine)</SmellType>
+              <HashCode>UnsuitableNaming.Shape.SetValueThree.cosine</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingModel</Project>
+              <File>Shape.cs</File>
+              <Line>135</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>17</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.App.OnLaunched.43LaunchActivatedEventArgs e;</HashCode>
+              <Severity>Red</Severity>
+              <Weight>43</Weight>
+              <Project>DrawingApp</Project>
+              <File>App.xaml.cs</File>
+              <Line>40</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>18</Id>
               <SmellType>Unresolved warnings(忽視警告)-無法從 C:\USERS\USER.DESKTOP-22A0EPS\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\14.0\EXTENSIONS\KUUGNCAR.XYO\Dr.Smell.Rules.dll: 無法載入檔案或組件 'System.Collections.Immutable, Version=1.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' 或其相依性的其中之一。 系統找不到指定的檔案。 建立分析器 Dr.Smell.Rules.Analyzer.LackOfCommentAnalyzer 的執行個體。</SmellType>
               <HashCode>..Unresolved warnings(忽視警告)-無法從 C:\USERS\USER.DESKTOP-22A0EPS\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\14.0\EXTENSIONS\KUUGNCAR.XYO\Dr.Smell.Rules.dll: 無法載入檔案或組件 'System.Collections.Immutable, Version=1.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' 或其相依性的其中之一。 系統找不到指定的檔案。 建立分析器 Dr.Smell.Rules.Analyzer.LackOfCommentAnalyzer 的執行個體。.1</HashCode>
               <Severity>Red</Severity>
@@ -251,7 +475,22 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>5</Id>
+              <Id>19</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>Form1.cs</File>
+              <Line>69</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingForm.Form1.ClickButtonSelect(object, System.EventArgs)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>20</Id>
               <SmellType>Lack of comments(缺乏註解)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
@@ -266,7 +505,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>6</Id>
+              <Id>21</Id>
               <SmellType>Lack of comments(缺乏註解)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
@@ -281,7 +520,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>7</Id>
+              <Id>22</Id>
               <SmellType>Lack of comments(缺乏註解)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
@@ -296,7 +535,847 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>8</Id>
+              <Id>23</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>58</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider.GetXamlTypeByType(System.Type)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>24</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>78</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider.GetXamlTypeByName(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>25</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>102</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider.GetMemberByLongName(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>26</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>133</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider.InitTypeTables()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>27</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>146</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider.LookupTypeIndexByName(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>28</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>162</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider.LookupTypeIndexByType(System.Type)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>29</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>178</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider.Activate_0_MainPage()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>30</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>180</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider.CreateXamlType(int)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>31</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>210</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider.CreateXamlMember(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>32</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>243</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlSystemBaseType.GetMember(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>33</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>254</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlSystemBaseType.ActivateInstance()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>34</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>255</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlSystemBaseType.AddToMap(object, object, object)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>35</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>256</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlSystemBaseType.AddToVector(object, object)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>36</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>257</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlSystemBaseType.RunInitializer()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>37</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>258</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlSystemBaseType.CreateFromString(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>38</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>317</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.GetMember(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>39</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>331</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.ActivateInstance()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>40</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>336</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.AddToMap(object, object, object)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>41</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>341</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.AddToVector(object, object)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>42</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>346</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.RunInitializer()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>43</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>351</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.CreateFromString(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>44</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>409</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.SetContentPropertyName(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>45</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>414</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.SetIsArray()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>46</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>419</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.SetIsMarkupExtension()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>47</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>424</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.SetIsBindable()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>48</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>429</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.SetIsReturnTypeStub()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>49</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>434</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.SetIsLocalType()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>50</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>439</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.SetItemTypeName(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>51</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>444</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.SetKeyTypeName(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>52</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>449</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.AddMemberName(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>53</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>458</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlUserType.AddEnumValue(string, object)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>54</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>498</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlMember.SetTargetTypeName(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>55</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>507</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlMember.SetIsAttachable()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>56</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>510</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlMember.SetIsDependencyProperty()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>57</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>513</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlMember.SetIsReadOnly()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>58</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>517</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlMember.GetValue(object)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>59</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>XamlTypeInfo.g.cs</File>
+              <Line>526</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.DrawingApp_XamlTypeInfo.XamlMember.SetValue(object, object)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>60</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>MainPage.g.cs</File>
+              <Line>101</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingApp.MainPage.GetBindingConnector(int, object)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>61</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\ModelPlus.cs</File>
+              <Line>45</Line>
+              <StartLine>44</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>45</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Model(0) envy DrawingModel.Shape(3) :DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY(),DrawingModel.Shape.SetValueSide(double, double),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>62</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\ModelPlus.cs</File>
+              <Line>46</Line>
+              <StartLine>45</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>46</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Model(2) envy DrawingModel.Shape(3) :DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY(),DrawingModel.Shape.SetValue(double, double),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>63</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\ModelPlus.cs</File>
+              <Line>59</Line>
+              <StartLine>58</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>59</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Model(0) envy DrawingModel.Shape(3) :DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY(),DrawingModel.Shape.SetValueSide(double, double),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>64</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\ModelPlus.cs</File>
+              <Line>60</Line>
+              <StartLine>59</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>60</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Model(2) envy DrawingModel.Shape(3) :DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY(),DrawingModel.Shape.SetValue(double, double),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>65</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\MoveShapeCommand..cs</File>
+              <Line>23</Line>
+              <StartLine>22</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>23</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.MoveShapeCommand(0) envy DrawingModel.Shape(3) :DrawingModel.Shape.GetMovePointX(),DrawingModel.Shape.GetMovePointY(),DrawingModel.Shape.MoveSelected(double, double),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>66</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\MoveShapeCommand..cs</File>
+              <Line>31</Line>
+              <StartLine>29</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>31</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.MoveShapeCommand(0) envy DrawingModel.Shape(3) :DrawingModel.Shape.GetOriginalValueX(),DrawingModel.Shape.GetOriginalValueY(),DrawingModel.Shape.MoveSelected(double, double),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>67</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>35</Line>
+              <StartLine>35</StartLine>
+              <StartCol>16</StartCol>
+              <EndLine>35</EndLine>
+              <EndCol>72</EndCol>
+              <Comment>DrawingModel.Line(0) envy DrawingModel.Shape(4) :DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>68</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>40</Line>
+              <StartLine>39</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>40</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Line(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._width,DrawingModel.Shape._valueX,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>69</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>41</Line>
+              <StartLine>40</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>41</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Line(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._height,DrawingModel.Shape._valueY,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>70</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>50</Line>
+              <StartLine>50</StartLine>
+              <StartCol>16</StartCol>
+              <EndLine>50</EndLine>
+              <EndCol>72</EndCol>
+              <Comment>DrawingModel.Line(0) envy DrawingModel.Shape(4) :DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>71</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>55</Line>
+              <StartLine>54</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>55</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Line(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._width,DrawingModel.Shape._valueX,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>72</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>56</Line>
+              <StartLine>55</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>56</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Line(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._height,DrawingModel.Shape._valueY,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>73</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>62</Line>
+              <StartLine>62</StartLine>
+              <StartCol>16</StartCol>
+              <EndLine>62</EndLine>
+              <EndCol>72</EndCol>
+              <Comment>DrawingModel.Line(0) envy DrawingModel.Shape(4) :DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>74</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>67</Line>
+              <StartLine>66</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>67</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Line(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._width,DrawingModel.Shape._valueX,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>75</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>68</Line>
+              <StartLine>67</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>68</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Line(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._height,DrawingModel.Shape._valueY,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>76</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>70</Line>
+              <StartLine>70</StartLine>
+              <StartCol>16</StartCol>
+              <EndLine>70</EndLine>
+              <EndCol>72</EndCol>
+              <Comment>DrawingModel.Line(0) envy DrawingModel.Shape(4) :DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>77</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>75</Line>
+              <StartLine>74</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>75</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Line(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._width,DrawingModel.Shape._valueX,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>78</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>76</Line>
+              <StartLine>75</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>76</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Line(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._height,DrawingModel.Shape._valueY,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>79</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
@@ -311,7 +1390,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>9</Id>
+              <Id>80</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
@@ -326,7 +1405,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>10</Id>
+              <Id>81</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
@@ -341,7 +1420,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>11</Id>
+              <Id>82</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
@@ -356,7 +1435,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>12</Id>
+              <Id>83</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
@@ -371,63 +1450,303 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>13</Id>
+              <Id>84</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>DrawingForm</Project>
-              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Model.cs</File>
-              <Line>99</Line>
-              <StartLine>98</StartLine>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>19</Line>
+              <StartLine>18</StartLine>
               <StartCol>0</StartCol>
-              <EndLine>99</EndLine>
+              <EndLine>19</EndLine>
               <EndCol>0</EndCol>
-              <Comment>DrawingModel.Model(0) envy DrawingModel.Shape(2) :DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(2) :DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueX2(),</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>14</Id>
+              <Id>85</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>DrawingForm</Project>
-              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Model.cs</File>
-              <Line>100</Line>
-              <StartLine>99</StartLine>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>20</Line>
+              <StartLine>19</StartLine>
               <StartCol>0</StartCol>
-              <EndLine>100</EndLine>
+              <EndLine>20</EndLine>
               <EndCol>0</EndCol>
-              <Comment>DrawingModel.Model(2) envy DrawingModel.Shape(3) :DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY(),DrawingModel.Shape.SetValue(double, double),</Comment>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(2) :DrawingModel.Shape.GetValueY(),DrawingModel.Shape.GetValueY2(),</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>15</Id>
+              <Id>86</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>DrawingForm</Project>
-              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Model.cs</File>
-              <Line>106</Line>
-              <StartLine>105</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>106</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>DrawingModel.Model(0) envy DrawingModel.Shape(2) :DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY(),</Comment>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>21</Line>
+              <StartLine>21</StartLine>
+              <StartCol>16</StartCol>
+              <EndLine>21</EndLine>
+              <EndCol>74</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(4) :DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueY(),DrawingModel.Shape.GetValueY2(),</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>16</Id>
+              <Id>87</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>50</Line>
+              <StartLine>50</StartLine>
+              <StartCol>16</StartCol>
+              <EndLine>50</EndLine>
+              <EndCol>72</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(4) :DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>88</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>55</Line>
+              <StartLine>54</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>55</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._width,DrawingModel.Shape._valueX,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>89</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>56</Line>
+              <StartLine>55</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>56</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._height,DrawingModel.Shape._valueY,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>90</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>57</Line>
+              <StartLine>56</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>57</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(5) :DrawingModel.Shape.SetValueThree(),DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>91</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>66</Line>
+              <StartLine>66</StartLine>
+              <StartCol>16</StartCol>
+              <EndLine>66</EndLine>
+              <EndCol>72</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(4) :DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>92</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>71</Line>
+              <StartLine>70</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>71</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._width,DrawingModel.Shape._valueX,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>93</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>72</Line>
+              <StartLine>71</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>72</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._height,DrawingModel.Shape._valueY,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>94</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>73</Line>
+              <StartLine>72</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>73</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(5) :DrawingModel.Shape.SetValueThree(),DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>95</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>79</Line>
+              <StartLine>79</StartLine>
+              <StartCol>16</StartCol>
+              <EndLine>79</EndLine>
+              <EndCol>72</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(4) :DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>96</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>84</Line>
+              <StartLine>83</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>84</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._width,DrawingModel.Shape._valueX,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>97</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>85</Line>
+              <StartLine>84</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>85</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._height,DrawingModel.Shape._valueY,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>98</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>86</Line>
+              <StartLine>85</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>86</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(5) :DrawingModel.Shape.SetValueThree(),DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>99</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>88</Line>
+              <StartLine>88</StartLine>
+              <StartCol>16</StartCol>
+              <EndLine>88</EndLine>
+              <EndCol>72</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(4) :DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>100</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>93</Line>
+              <StartLine>92</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>93</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._width,DrawingModel.Shape._valueX,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>101</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>94</Line>
+              <StartLine>93</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>94</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(6) :DrawingModel.Shape._height,DrawingModel.Shape._valueY,DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>102</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Arrow.cs</File>
+              <Line>95</Line>
+              <StartLine>94</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>95</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>DrawingModel.Arrow(0) envy DrawingModel.Shape(5) :DrawingModel.Shape.SetValueThree(),DrawingModel.Shape.GetValueX2(),DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY2(),DrawingModel.Shape.GetValueY(),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>103</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>DrawingForm</Project>
               <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Model.cs</File>
-              <Line>107</Line>
-              <StartLine>106</StartLine>
+              <Line>137</Line>
+              <StartLine>136</StartLine>
               <StartCol>0</StartCol>
-              <EndLine>107</EndLine>
+              <EndLine>137</EndLine>
               <EndCol>0</EndCol>
-              <Comment>DrawingModel.Model(2) envy DrawingModel.Shape(3) :DrawingModel.Shape.GetValueX(),DrawingModel.Shape.GetValueY(),DrawingModel.Shape.SetValue(double, double),</Comment>
+              <Comment>DrawingModel.Model(0) envy DrawingModel.Shape(2) :DrawingModel.Shape.DrawSelected(DrawingModel.IGraphics),DrawingModel.Shape.IsSelected(),</Comment>
               <Auto>false</Auto>
             </Smell>
           </Reviews>
@@ -458,7 +1777,22 @@
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
+                <RelativePath>Arrow.cs</RelativePath>
+                <ProjectName>DrawingModel</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ClearShapeCommand.cs</RelativePath>
+                <ProjectName>DrawingModel</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
                 <RelativePath>CommandManager.cs</RelativePath>
+                <ProjectName>DrawingModel</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DeleteShapeCommand.cs</RelativePath>
                 <ProjectName>DrawingModel</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
@@ -498,6 +1832,16 @@
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
+                <RelativePath>ModelPlus.cs</RelativePath>
+                <ProjectName>DrawingModel</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>MoveShapeCommand..cs</RelativePath>
+                <ProjectName>DrawingModel</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
                 <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
                 <ProjectName>DrawingModel</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
@@ -520,7 +1864,7 @@
               <AnalysisFile>
                 <RelativePath>Form1.cs</RelativePath>
                 <ProjectName>DrawingForm</ProjectName>
-                <AnalysisFileType>Model</AnalysisFileType>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Form1.Designer.cs</RelativePath>
@@ -587,19 +1931,9 @@
                 <ProjectName>DrawingApp</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
-              <AnalysisFile>
-                <RelativePath>ModelTests.cs</RelativePath>
-                <ProjectName>DrawingModelTests</ProjectName>
-                <AnalysisFileType>Model</AnalysisFileType>
-              </AnalysisFile>
-              <AnalysisFile>
-                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
-                <ProjectName>DrawingModelTests</ProjectName>
-                <AnalysisFileType>Model</AnalysisFileType>
-              </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>1950</ProductionLoc>
+          <ProductionLoc>2832</ProductionLoc>
           <TestLoc>0</TestLoc>
         </CodeReview>
       </Data>

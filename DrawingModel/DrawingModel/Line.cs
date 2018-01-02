@@ -41,6 +41,13 @@ namespace DrawingModel
                 this._valueY2 = this._valueY + _height;
             }
 
+            MoveSelectedTwo(pointX, pointY);
+            MoveSelectedThree(pointX, pointY);
+        }
+
+        //MoveSelectedTwo
+        public void MoveSelectedTwo(double pointX, double pointY)
+        {
             if (GetValueX2() > GetValueX() && GetValueY2() < GetValueY())
             {
                 this._valueX = pointX;
@@ -48,12 +55,10 @@ namespace DrawingModel
                 this._valueX2 = this._valueX + _width;
                 this._valueY2 = this._valueY - _height;
             }
-
-            MoveSelectedTwo( pointX,  pointY);
         }
 
         //MoveSelected
-        public void MoveSelectedTwo(double pointX, double pointY)
+        public void MoveSelectedThree(double pointX, double pointY)
         {
             if (GetValueX2() < GetValueX() && GetValueY2() < GetValueY())
             {

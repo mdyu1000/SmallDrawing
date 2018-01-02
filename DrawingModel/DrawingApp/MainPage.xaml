@@ -6,22 +6,25 @@
  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
  mc:Ignorable="d">
-    <Grid Background="{ThemeResource AppBarBackground}" Margin="-79,0,0,-53">
-        <Button x:Name="_buttonClear" Content="Clear" Foreground="White" HorizontalAlignment="Left"
-                Height="29" Margin="86,157,256,0" VerticalAlignment="Top" RenderTransformOrigin="1.023,0.178" BorderBrush="White" />
-        <Canvas x:Name="_canvas" Margin="188,125,0,112" Background="#FFFFFFA0" Width="241" HorizontalAlignment="Left"/>
+    <Grid Background="{ThemeResource AppBarBackground}" Margin="-79,0,-216,-53" Width="650" Height="700">
+        <Canvas x:Name="_canvas" Margin="0,100,0,1" Background="#FFFFFFA0"/>
+        <Button x:Name="_buttonClear" Content="Clear" Foreground="White" HorizontalAlignment="Left" Margin="0,505,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.023,0.178" BorderBrush="White" Width="156" />
 
         <Button x:Name="_buttonRectangle" Content="Rectangle" Foreground="White" HorizontalAlignment="Left" 
-                Margin="86,209,256,0" VerticalAlignment="Top" RenderTransformOrigin="0.165,-0.289" Height="32" Click="ClickButtonRectangle" BorderBrush="White"/>
+                Margin="0,305,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.165,-0.289" Height="32" Click="ClickButtonRectangle" BorderBrush="White" Width="156"/>
 
         <Button x:Name="_buttonLine" Content="Line" Foreground="White" HorizontalAlignment="Left" 
-                Margin="86,265,256,0" VerticalAlignment="Top" Height="29" Click="ClickButtonLine" BorderBrush="White"/>
+                Margin="0,355,0,0" VerticalAlignment="Top" Height="29" Click="ClickButtonLine" BorderBrush="White" Width="156"/>
 
-        <Button x:Name="_buttonEllipse" Content="Ellipse" HorizontalAlignment="Left" Margin="86,322,251,0" VerticalAlignment="Top" Height="30"
-                BorderBrush="White" Foreground="White" Click="ClickButtonEllipse"/>
-        <Button x:Name="_buttonRedo" Content="Redo" HorizontalAlignment="Left" Margin="188,70,0,0" VerticalAlignment="Top" 
+        <Button x:Name="_buttonEllipse" Content="Ellipse" HorizontalAlignment="Left" Margin="0,403,0,0" VerticalAlignment="Top" Height="30"
+                BorderBrush="White" Foreground="White" Click="ClickButtonEllipse" Width="156"/>
+        <Button x:Name="_buttonRedo" Content="Redo" HorizontalAlignment="Left" Margin="169,68,0,0" VerticalAlignment="Top" 
                 BorderBrush="White" Foreground="White" IsEnabled="False"/>
-        <Button x:Name="_buttonUndo" Content="Undo" HorizontalAlignment="Left" Margin="276,70,0,0" VerticalAlignment="Top"
+        <Button x:Name="_buttonUndo" Content="Undo" HorizontalAlignment="Left" Margin="316,68,0,0" VerticalAlignment="Top"
                 BorderBrush="White" Foreground="White" IsEnabled="False"/>
+        <Button x:Name="_buttonArrow" Content="Arrow  
+                " HorizontalAlignment="Left" Margin="0,455,0,0" VerticalAlignment="Top" BorderBrush="White" Foreground="White" Click="ClickButtonArrow" Width="156" />
+        <Button x:Name="_buttonSelect" Content="Select_Mode" HorizontalAlignment="Left" Margin="0,255,0,0" VerticalAlignment="Top" BorderBrush="White" Foreground="White" Click="ClickButtonSelect" Width="156"/>
+        <Button x:Name="_buttonDelete" Content="Delete" HorizontalAlignment="Left" Margin="460,68,0,0" VerticalAlignment="Top" BorderBrush="White" Foreground="White" Click="ClickButtonDelete"/>
     </Grid>
 </Page>

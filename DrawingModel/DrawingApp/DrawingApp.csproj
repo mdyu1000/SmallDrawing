@@ -98,6 +98,9 @@
     <Compile Include="..\DrawingModel\Arrow.cs">
       <Link>Model\Arrow.cs</Link>
     </Compile>
+    <Compile Include="..\DrawingModel\ClearShapeCommand.cs">
+      <Link>Model\ClearShapeCommand.cs</Link>
+    </Compile>
     <Compile Include="..\DrawingModel\Command.cs">
       <Link>Model\Command.cs</Link>
     </Compile>
@@ -121,6 +124,9 @@
     </Compile>
     <Compile Include="..\DrawingModel\Model.cs">
       <Link>Model\Model.cs</Link>
+    </Compile>
+    <Compile Include="..\DrawingModel\ModelPlus.cs">
+      <Link>Model\ModelPlus.cs</Link>
     </Compile>
     <Compile Include="..\DrawingModel\MoveShapeCommand..cs">
       <Link>Model\MoveShapeCommand..cs</Link>

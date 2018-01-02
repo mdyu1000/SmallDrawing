@@ -37,7 +37,7 @@
             this._buttonLine = new System.Windows.Forms.Button();
             this._buttonEllipse = new System.Windows.Forms.Button();
             this._buttonArrow = new System.Windows.Forms.Button();
-            this._buttonSelecte = new System.Windows.Forms.Button();
+            this._buttonSelect = new System.Windows.Forms.Button();
             this._tableLayoutPanelService = new System.Windows.Forms.TableLayoutPanel();
             this._buttonRedo = new System.Windows.Forms.Button();
             this._buttonUndo = new System.Windows.Forms.Button();
@@ -89,7 +89,7 @@
             this._tableLayoutPanelShape.Controls.Add(this._buttonLine, 0, 2);
             this._tableLayoutPanelShape.Controls.Add(this._buttonEllipse, 0, 3);
             this._tableLayoutPanelShape.Controls.Add(this._buttonArrow, 0, 4);
-            this._tableLayoutPanelShape.Controls.Add(this._buttonSelecte, 0, 0);
+            this._tableLayoutPanelShape.Controls.Add(this._buttonSelect, 0, 0);
             this._tableLayoutPanelShape.Location = new System.Drawing.Point(3, 67);
             this._tableLayoutPanelShape.Name = "_tableLayoutPanelShape";
             this._tableLayoutPanelShape.RowCount = 6;
@@ -157,16 +157,16 @@
             this._buttonArrow.UseVisualStyleBackColor = true;
             this._buttonArrow.Click += new System.EventHandler(this.ClickButtonArrow);
             //
-            // _buttonSelecte
+            // _buttonSelect
             //
-            this._buttonSelecte.Dock = System.Windows.Forms.DockStyle.Top;
-            this._buttonSelecte.Location = new System.Drawing.Point(3, 3);
-            this._buttonSelecte.Name = "_buttonSelecte";
-            this._buttonSelecte.Size = new System.Drawing.Size(107, 43);
-            this._buttonSelecte.TabIndex = 4;
-            this._buttonSelecte.Text = "Select_Mode";
-            this._buttonSelecte.UseVisualStyleBackColor = true;
-            this._buttonSelecte.Click += new System.EventHandler(this.ClickButtonSelect);
+            this._buttonSelect.Dock = System.Windows.Forms.DockStyle.Top;
+            this._buttonSelect.Location = new System.Drawing.Point(3, 3);
+            this._buttonSelect.Name = "_buttonSelect";
+            this._buttonSelect.Size = new System.Drawing.Size(107, 43);
+            this._buttonSelect.TabIndex = 4;
+            this._buttonSelect.Text = "Select_Mode";
+            this._buttonSelect.UseVisualStyleBackColor = true;
+            this._buttonSelect.Click += new System.EventHandler(this.ClickButtonSelect);
             //
             // _tableLayoutPanelService
             //
@@ -262,7 +262,7 @@
         private System.Windows.Forms.Button _buttonDelete;
         private System.Windows.Forms.Button _buttonEllipse;
         private System.Windows.Forms.Button _buttonArrow;
-        private System.Windows.Forms.Button _buttonSelecte;
+        private System.Windows.Forms.Button _buttonSelect;
     }
 }
 

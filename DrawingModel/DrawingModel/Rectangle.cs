@@ -9,6 +9,7 @@ namespace DrawingModel
     public class Rectangle : Shape
     {
 
+        private const int FLAG_RECTANGLE = 2;
         //Draw
         public override void Draw(IGraphics graphics)
         {
@@ -25,7 +26,7 @@ namespace DrawingModel
         //GetShapeFlag
         public override int GetShapeFlag()
         {
-            return 2;
+            return FLAG_RECTANGLE;
         }
 
     }

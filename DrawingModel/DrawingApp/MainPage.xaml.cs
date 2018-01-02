@@ -21,6 +21,9 @@ namespace DrawingApp
     {
         DrawingModel.Model _model;
         PresentationModel.PresentationModel _presentationModel;
+        const int BUTTON_SIZE = 4;
+        bool[] _isButtonPressed = new bool[BUTTON_SIZE];
+
         public MainPage()
         {
             this.InitializeComponent();
@@ -51,14 +54,21 @@ namespace DrawingApp
         //HandleClearButtonClick
         private void HandleClearButtonClick(object sender, RoutedEventArgs e)
         {
-            _model.Clear();
+            _model.ClearCommand();
         }
 
         //HandleCanvasPressed
         public void HandleCanvasPressed(object sender, PointerRoutedEventArgs e)
         {
+            const int TWO = 2;
+            const int THREE = 3;
+            _isButtonPressed[0] = _presentationModel.IsButtonLinePressed();
+            _isButtonPressed[1] = _presentationModel.IsButtonRectanglePressed();
+            _isButtonPressed[TWO] = _presentationModel.IsButtonEllipsePressed();
+            _isButtonPressed[THREE] = _presentationModel.IsButtonArrowPressed();
             _presentationModel.DrawCanvas();
-            _model.PressPointer(e.GetCurrentPoint(_canvas).Position.X, e.GetCurrentPoint(_canvas).Position.Y, _presentationModel.IsButtonLinePressed(), _presentationModel.IsButtonRectanglePressed(), _presentationModel.IsButtonEllipsePressed());
+            _model.PressPointer(e.GetCurrentPoint(_canvas).Position.X, e.GetCurrentPoint(_canvas).Position.Y, _isButtonPressed);
+            _model.PressSelected(e.GetCurrentPoint(_canvas).Position.X, e.GetCurrentPoint(_canvas).Position.Y, _presentationModel.IsButtonSelectPressed());
             RefreshState();
         }
 
@@ -112,6 +122,7 @@ namespace DrawingApp
             _buttonClear.IsEnabled = _presentationModel.IsButtonShapeEnabled();
             _buttonRedo.IsEnabled = _presentationModel.IsButtonRedoEnabled();
             _buttonUndo.IsEnabled = _presentationModel.IsButtonUndoEnabled();
+            _buttonDelete.IsEnabled = _presentationModel.IsButtonShapeEnabled();
         }
 
         //ClickButtonRedo
@@ -125,6 +136,27 @@ namespace DrawingApp
         private void ClickButtonUndo(object sender, RoutedEventArgs e)
         {
             _presentationModel.ClickButtonUndo();
+            RefreshState();
+        }
+
+        //ClickButtonArrow
+        private void ClickButtonArrow(object sender, RoutedEventArgs e)
+        {
+            _presentationModel.ClickButtonArrow();
+            RefreshState();
+        }
+
+        //ClickButtonSelect
+        private void ClickButtonSelect(object sender, RoutedEventArgs e)
+        {
+            _presentationModel.ClickButtonSelect();
+            RefreshState();
+        }
+
+        //ClickButtonDelete
+        private void ClickButtonDelete(object sender, RoutedEventArgs e)
+        {
+            _presentationModel.ClickButtonDelete();
             RefreshState();
         }
     }

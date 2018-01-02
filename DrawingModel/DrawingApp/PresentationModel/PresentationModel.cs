@@ -13,9 +13,11 @@ namespace DrawingApp.PresentationModel
         IGraphics _graphic;
         bool _isButtonShapeEnabled;
         bool _isButtonClearEnabled;
-        bool _isButtonRectanglePressed;
+        bool _isButtonLinePressed;
         bool _isButtonEllipsePressed;
-        bool _isButtonLinePressed = true;
+        bool _isButtonRectanglePressed;
+        bool _isButtonArrowPressed;
+        bool _isButtonSelectPressed;
 
         public PresentationModel(Model model, Canvas canvas)
         {
@@ -53,6 +55,8 @@ namespace DrawingApp.PresentationModel
             _isButtonRectanglePressed = true;
             _isButtonLinePressed = false;
             _isButtonEllipsePressed = false;
+            _isButtonArrowPressed = false;
+            _isButtonSelectPressed = false;
         }
 
         //ClickButtonLine
@@ -61,12 +65,36 @@ namespace DrawingApp.PresentationModel
             _isButtonLinePressed = true;
             _isButtonRectanglePressed = false;
             _isButtonEllipsePressed = false;
+            _isButtonArrowPressed = false;
+            _isButtonSelectPressed = false;
         }
 
         //ClickButtonLine
         public void ClickButtonEllipse()
         {
             _isButtonEllipsePressed = true;
+            _isButtonRectanglePressed = false;
+            _isButtonLinePressed = false;
+            _isButtonArrowPressed = false;
+            _isButtonSelectPressed = false;
+        }
+
+        //ClickButtonArrow
+        public void ClickButtonArrow()
+        {
+            _isButtonArrowPressed = true;
+            _isButtonEllipsePressed = false;
+            _isButtonRectanglePressed = false;
+            _isButtonLinePressed = false;
+            _isButtonSelectPressed = false;
+        }
+
+        //ClickButtonSelect
+        public void ClickButtonSelect()
+        {
+            _isButtonSelectPressed = true;
+            _isButtonArrowPressed = false;
+            _isButtonEllipsePressed = false;
             _isButtonRectanglePressed = false;
             _isButtonLinePressed = false;
         }
@@ -81,6 +109,18 @@ namespace DrawingApp.PresentationModel
         public void ClickButtonUndo()
         {
             _model.Undo();
+        }
+
+        //ClickButtonDelete
+        public void ClickButtonDelete()
+        {
+            _model.DeleteCommand();
+        }
+
+        //IsButtonRectanglePressed
+        public bool IsButtonArrowPressed()
+        {
+            return _isButtonArrowPressed;
         }
 
         //IsButtonRectanglePressed
@@ -123,6 +163,18 @@ namespace DrawingApp.PresentationModel
         public bool IsButtonUndoEnabled()
         {
             return _model.IsUndoEnabled;
+        }
+
+        //Button Delete State
+        public bool IsButtonDeleteEnabled()
+        {
+            return _isButtonClearEnabled;
+        }
+
+        //IsButtonSelectPressed
+        public bool IsButtonSelectPressed()
+        {
+            return _isButtonSelectPressed;
         }
     }
 }

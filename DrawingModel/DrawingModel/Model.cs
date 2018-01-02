@@ -133,9 +133,7 @@ namespace DrawingModel
                 DisplayShape.Draw(graphics);
 
                 if (DisplayShape.IsSelected())
-                {
                     DisplayShape.DrawSelected(graphics);
-                }
 
                 DrawTwo(graphics);
             }

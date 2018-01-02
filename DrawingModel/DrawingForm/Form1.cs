@@ -66,6 +66,7 @@ namespace DrawingForm
             RefreshState();
         }
 
+        //ClickButtonSelect
         private void ClickButtonSelect(object sender, EventArgs e)
         {
             _presentationModel.ClickButtonSelect();

@@ -137,6 +137,9 @@
     <Compile Include="..\DrawingModel\Shape.cs">
       <Link>Model\Shape.cs</Link>
     </Compile>
+    <Compile Include="..\DrawingModel\ShapePlus.cs">
+      <Link>Model\ShapePlus.cs</Link>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>

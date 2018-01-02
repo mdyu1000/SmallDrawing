@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DrawingModel
 {
-    public class Shape
+    public partial class Shape
     {
         protected double _valueX;
         protected double _valueY;
@@ -76,6 +76,31 @@ namespace DrawingModel
             this._valueY = pointY;
         }
 
+        //MoveSelectedLine
+        public void MoveSelectedLine(double pointX, double pointY)
+        {
+            if (GetValueX2() > GetValueX() && GetValueY2() > GetValueY())
+            {
+                this._valueX2 = this._valueX + _width;
+                this._valueY2 = this._valueY + _height;
+            }
+            else if (GetValueX2() > GetValueX() && GetValueY2() < GetValueY())
+            {
+                this._valueX2 = this._valueX + _width;
+                this._valueY2 = this._valueY - _height;
+            }
+            else if (GetValueX2() < GetValueX() && GetValueY2() < GetValueY())
+            {
+                this._valueX2 = this._valueX - _width;
+                this._valueY2 = this._valueY - _height;
+            }
+            else if (GetValueX2() < GetValueX() && GetValueY2() > GetValueY())
+            {
+                this._valueX2 = this._valueX - _width;
+                this._valueY2 = this._valueY + _height;
+            }
+        }
+
         //SaveValue
         public void SaveValue()
         {
@@ -139,46 +164,10 @@ namespace DrawingModel
             this._valueY4 = GetValueY2() + (LENGTH * cosine - LENGTH * sine);
         }
 
-        //GetValueX
-        public double GetValueX()
-        {
-            return this._valueX;
-        }
-
-        //GetValueY
-        public double GetValueY()
-        {
-            return this._valueY;
-        }
-
-        //GetValueX2
-        public double GetValueX2()
-        {
-            return this._valueX2;
-        }
-
-        //GetValueY2
-        public double GetValueY2()
-        {
-            return this._valueY2;
-        }
-
         //SetCancleSelected
         public void SetCancelSelected()
         {
             this._isSelected = false;
-        }
-
-        //_originalValueX
-        public double GetOriginalValueX()
-        {
-            return this._originalValueX.Last();
-        }
-
-        //_originalValueY
-        public double GetOriginalValueY()
-        {
-            return this._originalValueY.Last();
         }
 
         //UndoMoveShape
@@ -202,16 +191,13 @@ namespace DrawingModel
             }
         }
 
-        //_movePointX
-        public double GetMovePointX()
+        //IsInitialEqualEnd
+        public bool IsInitialEqualEnd()
         {
-            return this._movePointX;
-        }
-
-        //GetMovePointY
-        public double GetMovePointY()
-        {
-            return this._movePointY;
+            if (_valueX != _valueX2 && _valueY != _valueY2)
+                return false;
+            else
+                return true;
         }
 
     }

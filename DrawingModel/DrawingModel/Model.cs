@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DrawingModel
 {
-    public class Model
+    public partial class Model
     {
         public event ModelChangedEventHandler _modelChanged;
         public delegate void ModelChangedEventHandler();
@@ -204,36 +204,5 @@ namespace DrawingModel
                 _modelChanged();
         }
 
-        //Undo
-        public void Undo()
-        {
-            this._commandManager.Undo();
-            NotifyModelChanged();
-        }
-
-        //Redo
-        public void Redo()
-        {
-            this._commandManager.Redo();
-            NotifyModelChanged();
-        }
-
-        //IsRedoEnabled
-        public bool IsRedoEnabled
-        {
-            get
-            {
-                return _commandManager.IsRedoEnabled;
-            }
-        }
-
-        //IsUndoEnabled
-        public bool IsUndoEnabled
-        {
-            get
-            {
-                return _commandManager.IsUndoEnabled;
-            }
-        }
     }
 }

@@ -194,7 +194,7 @@
               <Weight>1</Weight>
               <Project>DrawingModel</Project>
               <File>GoogleDriveService.cs</File>
-              <Line>133</Line>
+              <Line>135</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -210,7 +210,7 @@
               <Weight>1</Weight>
               <Project>DrawingModel</Project>
               <File>GoogleDriveService.cs</File>
-              <Line>57</Line>
+              <Line>58</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -226,7 +226,7 @@
               <Weight>1</Weight>
               <Project>DrawingModel</Project>
               <File>GoogleDriveService.cs</File>
-              <Line>59</Line>
+              <Line>60</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -242,7 +242,7 @@
               <Weight>1</Weight>
               <Project>DrawingModel</Project>
               <File>GoogleDriveService.cs</File>
-              <Line>158</Line>
+              <Line>160</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -258,7 +258,7 @@
               <Weight>1</Weight>
               <Project>DrawingModel</Project>
               <File>GoogleDriveService.cs</File>
-              <Line>158</Line>
+              <Line>160</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -274,7 +274,7 @@
               <Weight>1</Weight>
               <Project>DrawingModel</Project>
               <File>GoogleDriveService.cs</File>
-              <Line>160</Line>
+              <Line>162</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -285,9 +285,9 @@
             <Smell>
               <Id>7</Id>
               <SmellType>Large class(過大類別)</SmellType>
-              <HashCode>LargeClass.GoogleDriveUploader.GoogleDrive.GoogleDriveService.212</HashCode>
+              <HashCode>LargeClass.GoogleDriveUploader.GoogleDrive.GoogleDriveService.214</HashCode>
               <Severity>Warning</Severity>
-              <Weight>212</Weight>
+              <Weight>214</Weight>
               <Project>DrawingModel</Project>
               <File>GoogleDriveService.cs</File>
               <Line>19</Line>
@@ -338,7 +338,7 @@
               <Weight>23</Weight>
               <Project>DrawingModel</Project>
               <File>GoogleDriveService.cs</File>
-              <Line>42</Line>
+              <Line>43</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -354,7 +354,7 @@
               <Weight>25</Weight>
               <Project>DrawingModel</Project>
               <File>GoogleDriveService.cs</File>
-              <Line>112</Line>
+              <Line>114</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -370,7 +370,7 @@
               <Weight>1</Weight>
               <Project>DrawingModel</Project>
               <File>GoogleDriveService.cs</File>
-              <Line>146</Line>
+              <Line>148</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -386,7 +386,7 @@
               <Weight>37</Weight>
               <Project>DrawingModel</Project>
               <File>GoogleDriveService.cs</File>
-              <Line>146</Line>
+              <Line>148</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -402,7 +402,7 @@
               <Weight>1</Weight>
               <Project>DrawingModel</Project>
               <File>GoogleDriveService.cs</File>
-              <Line>190</Line>
+              <Line>192</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -444,52 +444,6 @@
             </Smell>
             <Smell>
               <Id>17</Id>
-              <SmellType>Unresolved warnings(忽視警告)-'packages' 元素未宣告。</SmellType>
-              <HashCode>DrawingModel\DrawingModel.packages.config.Unresolved warnings(忽視警告)-'packages' 元素未宣告。.2</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingModel\DrawingModel</Project>
-              <File>packages.config</File>
-              <Line>2</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>18</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingModel</Project>
-              <File>GoogleDriveService.cs</File>
-              <Line>42</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>GoogleDriveUploader.GoogleDrive.GoogleDriveService.CreateNewService(string, string)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>19</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>GoogleDriveService.cs</File>
-              <Line>42</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>GoogleDriveUploader.GoogleDrive.GoogleDriveService.CreateNewService(string, string)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>20</Id>
               <SmellType>Lack of comments(缺乏註解)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
@@ -504,16 +458,61 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
+              <Id>18</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\GoogleDriveService.cs</File>
+              <Line>53</Line>
+              <StartLine>52</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>53</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>GoogleDriveUploader.GoogleDrive.GoogleDriveService(0) envy Google.Apis.Auth.OAuth2.GoogleClientSecrets(2) :Google.Apis.Auth.OAuth2.GoogleClientSecrets.Load(System.IO.Stream),Google.Apis.Auth.OAuth2.GoogleClientSecrets.Secrets,</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>19</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\GoogleDriveService.cs</File>
+              <Line>60</Line>
+              <StartLine>54</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>60</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>GoogleDriveUploader.GoogleDrive.GoogleDriveService(0) envy Google.Apis.Auth.OAuth2.GoogleClientSecrets(2) :Google.Apis.Auth.OAuth2.GoogleClientSecrets.Load(System.IO.Stream),Google.Apis.Auth.OAuth2.GoogleClientSecrets.Secrets,</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>20</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\GoogleDriveService.cs</File>
+              <Line>61</Line>
+              <StartLine>60</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>61</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>GoogleDriveUploader.GoogleDrive.GoogleDriveService(0) envy Google.Apis.Auth.OAuth2.GoogleClientSecrets(2) :Google.Apis.Auth.OAuth2.GoogleClientSecrets.Load(System.IO.Stream),Google.Apis.Auth.OAuth2.GoogleClientSecrets.Secrets,</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
               <Id>21</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingModel</Project>
+              <Project>DrawingForm</Project>
               <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\GoogleDriveService.cs</File>
-              <Line>52</Line>
-              <StartLine>51</StartLine>
+              <Line>64</Line>
+              <StartLine>63</StartLine>
               <StartCol>0</StartCol>
-              <EndLine>52</EndLine>
+              <EndLine>64</EndLine>
               <EndCol>0</EndCol>
               <Comment>GoogleDriveUploader.GoogleDrive.GoogleDriveService(0) envy Google.Apis.Auth.OAuth2.GoogleClientSecrets(2) :Google.Apis.Auth.OAuth2.GoogleClientSecrets.Load(System.IO.Stream),Google.Apis.Auth.OAuth2.GoogleClientSecrets.Secrets,</Comment>
               <Auto>false</Auto>
@@ -523,14 +522,14 @@
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingModel</Project>
+              <Project>DrawingForm</Project>
               <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\GoogleDriveService.cs</File>
-              <Line>59</Line>
-              <StartLine>53</StartLine>
+              <Line>247</Line>
+              <StartLine>246</StartLine>
               <StartCol>0</StartCol>
-              <EndLine>59</EndLine>
+              <EndLine>247</EndLine>
               <EndCol>0</EndCol>
-              <Comment>GoogleDriveUploader.GoogleDrive.GoogleDriveService(0) envy Google.Apis.Auth.OAuth2.GoogleClientSecrets(2) :Google.Apis.Auth.OAuth2.GoogleClientSecrets.Load(System.IO.Stream),Google.Apis.Auth.OAuth2.GoogleClientSecrets.Secrets,</Comment>
+              <Comment>GoogleDriveUploader.GoogleDrive.GoogleDriveService(0) envy Google.Apis.Drive.v2.DriveService(2) :Google.Apis.Drive.v2.DriveService.Files,Google.Apis.Drive.v2.DriveService.Files,</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
@@ -538,52 +537,7 @@
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingModel</Project>
-              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\GoogleDriveService.cs</File>
-              <Line>60</Line>
-              <StartLine>59</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>60</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>GoogleDriveUploader.GoogleDrive.GoogleDriveService(0) envy Google.Apis.Auth.OAuth2.GoogleClientSecrets(2) :Google.Apis.Auth.OAuth2.GoogleClientSecrets.Load(System.IO.Stream),Google.Apis.Auth.OAuth2.GoogleClientSecrets.Secrets,</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>24</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingModel</Project>
-              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\GoogleDriveService.cs</File>
-              <Line>63</Line>
-              <StartLine>62</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>63</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>GoogleDriveUploader.GoogleDrive.GoogleDriveService(0) envy Google.Apis.Auth.OAuth2.GoogleClientSecrets(2) :Google.Apis.Auth.OAuth2.GoogleClientSecrets.Load(System.IO.Stream),Google.Apis.Auth.OAuth2.GoogleClientSecrets.Secrets,</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>25</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingModel</Project>
-              <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\GoogleDriveService.cs</File>
-              <Line>245</Line>
-              <StartLine>244</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>245</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>GoogleDriveUploader.GoogleDrive.GoogleDriveService(0) envy Google.Apis.Drive.v2.DriveService(2) :Google.Apis.Drive.v2.DriveService.Files,Google.Apis.Drive.v2.DriveService.Files,</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>26</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingModel</Project>
+              <Project>DrawingForm</Project>
               <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Model.cs</File>
               <Line>99</Line>
               <StartLine>98</StartLine>
@@ -594,11 +548,11 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>27</Id>
+              <Id>24</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingModel</Project>
+              <Project>DrawingForm</Project>
               <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Model.cs</File>
               <Line>100</Line>
               <StartLine>99</StartLine>
@@ -609,11 +563,11 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>28</Id>
+              <Id>25</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingModel</Project>
+              <Project>DrawingForm</Project>
               <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Model.cs</File>
               <Line>106</Line>
               <StartLine>105</StartLine>
@@ -624,11 +578,11 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>29</Id>
+              <Id>26</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingModel</Project>
+              <Project>DrawingForm</Project>
               <File>C:\Users\user.DESKTOP-22A0EPS\Documents\SmallDrawing\DrawingModel\DrawingModel\Model.cs</File>
               <Line>107</Line>
               <StartLine>106</StartLine>
@@ -657,6 +611,7 @@
             <string>..Unresolved warnings(忽視警告)-無法從 C:\USERS\USER.DESKTOP-22A0EPS\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\14.0\EXTENSIONS\KUUGNCAR.XYO\Dr.Smell.Rules.dll: 無法載入檔案或組件 'System.Collections.Immutable, Version=1.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' 或其相依性的其中之一。 系統找不到指定的檔案。 建立分析器 Dr.Smell.Rules.Analyzer.LackOfCommentAnalyzer 的執行個體。.1</string>
             <string>LongMethod.App.OnLaunched.43LaunchActivatedEventArgs e;</string>
             <string>DrawingModel\DrawingModel.packages.config.Unresolved warnings(忽視警告)-'packages' 元素未宣告。.2</string>
+            <string>LargeClass.GoogleDriveUploader.GoogleDrive.GoogleDriveService.214</string>
           </HashCodeIgnoreList>
           <AnalysisFileManager>
             <AnalysisFiles>
@@ -702,6 +657,11 @@
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Model.cs</RelativePath>
+                <ProjectName>DrawingModel</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ModelPlusHW8.cs</RelativePath>
                 <ProjectName>DrawingModel</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
@@ -795,20 +755,10 @@
                 <ProjectName>DrawingApp</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
-              <AnalysisFile>
-                <RelativePath>ModelTests.cs</RelativePath>
-                <ProjectName>DrawingModelTests</ProjectName>
-                <AnalysisFileType>Test</AnalysisFileType>
-              </AnalysisFile>
-              <AnalysisFile>
-                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
-                <ProjectName>DrawingModelTests</ProjectName>
-                <AnalysisFileType>Model</AnalysisFileType>
-              </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>1977</ProductionLoc>
-          <TestLoc>167</TestLoc>
+          <ProductionLoc>1965</ProductionLoc>
+          <TestLoc>0</TestLoc>
         </CodeReview>
       </Data>
     </div>

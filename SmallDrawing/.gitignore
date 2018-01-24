@@ -1,0 +1,9 @@
+DrawingApp/bin
+DrawingApp/obj
+DrawingForm/obj
+DrawingForm/bin
+DrawingModel/bin
+DrawingModle/obj
+packages
+!DrawingForm/bin/Debug/clientSecret.json
+

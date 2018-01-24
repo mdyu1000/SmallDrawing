@@ -89,7 +89,14 @@ namespace DrawingModel
                 this._valueX2 = this._valueX + _width;
                 this._valueY2 = this._valueY - _height;
             }
-            else if (GetValueX2() < GetValueX() && GetValueY2() < GetValueY())
+
+            MoveSelectedLineTwo(pointX, pointY);
+        }
+
+        //MoveSelectedLineTwo
+        public void MoveSelectedLineTwo(double pointX, double pointY)
+        {
+            if (GetValueX2() < GetValueX() && GetValueY2() < GetValueY())
             {
                 this._valueX2 = this._valueX - _width;
                 this._valueY2 = this._valueY - _height;
